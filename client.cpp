@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 #include <time.h>
+#include <unistd.h>
 
 #include "utils.h"
-
 
 int main(int argc, char *argv[]) {
     int listen_sockfd, send_sockfd;
@@ -55,7 +54,8 @@ int main(int argc, char *argv[]) {
     client_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
     // Bind the listen socket to the client address
-    if (bind(listen_sockfd, (struct sockaddr *)&client_addr, sizeof(client_addr)) < 0) {
+    if (bind(listen_sockfd, (struct sockaddr *)&client_addr,
+             sizeof(client_addr)) < 0) {
         perror("Bind failed");
         close(listen_sockfd);
         return 1;
@@ -72,11 +72,8 @@ int main(int argc, char *argv[]) {
 
     // TODO: Read from file, and initiate reliable data transfer to the server
 
- 
-    
     fclose(fp);
     close(listen_sockfd);
     close(send_sockfd);
     return 0;
 }
-

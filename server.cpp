@@ -36,7 +36,8 @@ int main() {
     server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
     // Bind the listen socket to the server address
-    if (bind(listen_sockfd, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+    if (bind(listen_sockfd, (struct sockaddr *)&server_addr,
+             sizeof(server_addr)) < 0) {
         perror("Bind failed");
         close(listen_sockfd);
         return 1;
@@ -52,8 +53,6 @@ int main() {
     FILE *fp = fopen("output.txt", "wb");
 
     // TODO: Receive file from the client and save it as output.txt
-
-    
 
     fclose(fp);
     close(listen_sockfd);
