@@ -126,8 +126,4 @@ bool sendPacket(const int sockfd, const sockaddr_in* toInfo,
 
     return true;
 }
-
-std::tuple<int, int> getControlWindow(int ssthresh, int currentCwnd,
-                                      int numDups);
-
 #endif
