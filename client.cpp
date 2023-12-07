@@ -41,6 +41,16 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    struct timeval timeout;
+    timeout.tv_sec = 0;
+    timeout.tv_usec = 10;
+
+    if (setsockopt(listen_sockfd, SOL_SOCKET, SO_RCVTIMEO, &timeout,
+                   sizeof timeout) < 0) {
+        perror("setsockopt failed\n");
+        return 1;
+    }
+
     // Configure the server address structure to which we will send data
     memset(&server_addr_to, 0, sizeof(server_addr_to));
     server_addr_to.sin_family = AF_INET;
@@ -60,6 +70,10 @@ int main(int argc, char *argv[]) {
         close(listen_sockfd);
         return 1;
     }
+
+    packet pack;
+    build_packet(&pack, 12, 13, 1, 2, 4, "1234");
+    sendPacket(send_sockfd, &server_addr_to, pack);
 
     // Open file for reading
     FILE *fp = fopen(filename, "rb");

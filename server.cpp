@@ -4,6 +4,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <iostream>
+
 #include "utils.h"
 
 int main() {
@@ -29,6 +31,16 @@ int main() {
         return 1;
     }
 
+    struct timeval timeout;
+    timeout.tv_sec = 0;
+    timeout.tv_usec = 10;
+
+    if (setsockopt(listen_sockfd, SOL_SOCKET, SO_RCVTIMEO, &timeout,
+                   sizeof timeout) < 0) {
+        perror("setsockopt failed\n");
+        return 1;
+    }
+
     // Configure the server address structure
     memset(&server_addr, 0, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
@@ -48,6 +60,15 @@ int main() {
     client_addr_to.sin_family = AF_INET;
     client_addr_to.sin_addr.s_addr = inet_addr(LOCAL_HOST);
     client_addr_to.sin_port = htons(CLIENT_PORT_TO);
+
+    while (true) {
+        std::optional<packet> pack = readPacket(listen_sockfd);
+        if (pack.has_value()) {
+            printRecv(&pack.value());
+            break;
+        } else
+            std::cout << "Timeout\n";
+    }
 
     // Open the target file for writing (always write to output.txt)
     FILE *fp = fopen("output.txt", "wb");
