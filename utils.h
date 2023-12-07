@@ -72,7 +72,7 @@ bool readBytes(int sockfd, void *buf, int size, bool shouldTimeout = false)
     while (totalBytesRead < size)
     {
         int bytesRead =
-            read(sockfd, buf + totalBytesRead, size - totalBytesRead);
+            read(sockfd, (char *)buf + totalBytesRead, size - totalBytesRead);
         if (bytesRead == -1 && shouldTimeout)
             return false;
 

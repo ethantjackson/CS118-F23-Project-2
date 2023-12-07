@@ -6,8 +6,8 @@ all: clean build
 default: build
 
 build: server.cpp client.cpp
-	g++ -Wall -Wextra -o server server.cpp CongestionController.cpp
-	g++ -Wall -Wextra -o client client.cpp CongestionController.cpp
+	g++ -std=c++14 -Wall -Wextra -o server server.cpp CongestionController.cpp
+	g++ -std=c++14 -Wall -Wextra -o client client.cpp CongestionController.cpp
 
 clean:
 	rm -f server client output.txt project2.zip

@@ -209,6 +209,7 @@ int main(int argc, char *argv[])
                         return -1;
                     }
                     pendingQueue.push(pendingPacketNode(i, sentTime));
+                    usleep(10000);
                 }
                 for (int i = initialPackNum; i < recvAck; ++i)
                 {
