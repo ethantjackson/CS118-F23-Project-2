@@ -120,13 +120,14 @@ int main(int argc, char *argv[])
 
     // RDT parameters
     // const long long kTimeoutMicro = 250000;
-    const long long kTimeoutMicro = 2500000;
+    const long long kTimeoutMicro = 250000;
     // RDT sender state
     int numDupes = 0;
     int cwnd = 1;
     int ssthresh = 4;
     std::vector<packet> packetList;
     packageFile(fp, packetList);
+    std::vector<bool> packetWasSent(packetList.size(), false);
 
     // congestion control
     CongestionController congestionController(ssthresh);
@@ -137,8 +138,8 @@ int main(int argc, char *argv[])
         std::cerr << "Error getting the current time" << std::endl;
         return -1;
     }
-    std::queue<pendingPacketNode> pendingQueue;
-    pendingQueue.push(pendingPacketNode(0, sentTime));
+    std::deque<pendingPacketNode> pendingQueue;
+    pendingQueue.push_back(pendingPacketNode(0, sentTime));
 
     sendPacket(send_sockfd, &server_addr_to, packetList[0]);
     while (true)
@@ -156,18 +157,21 @@ int main(int argc, char *argv[])
                 std::cerr << "Error getting the current time" << std::endl;
                 return -1;
             }
-            long long timeElapsedMicro =
-                getTimeElapsed(pendingQueue.front().sentTime, currTime);
-
-            if (timeElapsedMicro >= kTimeoutMicro)
+            for (auto &pendingPack : pendingQueue)
             {
-                pendingQueue.front().sentTime = currTime;
-                std::cout << "timeout: " << pendingQueue.front().packNum
-                          << std::endl;
-                sendPacket(send_sockfd, &server_addr_to,
-                           packetList[pendingQueue.front().packNum]);
-                numDupes = 0;
-                cwnd = congestionController.gotTimeout();
+                long long timeElapsedMicro =
+                    getTimeElapsed(pendingPack.sentTime, currTime);
+
+                if (timeElapsedMicro >= kTimeoutMicro)
+                {
+                    pendingPack.sentTime = currTime;
+                    std::cout << "timeout: " << pendingPack.packNum
+                              << std::endl;
+                    sendPacket(send_sockfd, &server_addr_to,
+                               packetList[pendingPack.packNum]);
+                    numDupes = 0;
+                    cwnd = congestionController.gotTimeout();
+                }
             }
         }
         else
@@ -202,6 +206,11 @@ int main(int argc, char *argv[])
                     {
                         break;
                     }
+                    if (packetWasSent[i])
+                    {
+                        continue;
+                    }
+                    packetWasSent[i] = true;
                     std::cout << "sending packet: " << i << std::endl;
                     sendPacket(send_sockfd, &server_addr_to, packetList[i]);
                     timeval sentTime;
@@ -211,12 +220,12 @@ int main(int argc, char *argv[])
                                   << std::endl;
                         return -1;
                     }
-                    pendingQueue.push(pendingPacketNode(i, sentTime));
+                    pendingQueue.push_back(pendingPacketNode(i, sentTime));
                     usleep(10000);
                 }
                 for (int i = initialPackNum; i < recvAck; ++i)
                 {
-                    pendingQueue.pop();
+                    pendingQueue.pop_front();
                 }
             }
         }

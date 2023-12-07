@@ -79,7 +79,7 @@ int main()
 
     std::vector<packet> packetList;
     // RTL state
-    std::vector<bool> ackedPacks;
+    std::vector<bool> receivedPacks;
     unsigned short cumAck = 0;
 
     while (true)
@@ -89,18 +89,17 @@ int main()
         std::tie(recvPack, isPresent) = readPacket(listen_sockfd);
         // packet recvPack = std::get<0>(retval);
         // bool isPresent = std::get<1>(retval);
-        std::cout << recvPack.seqnum << " " << recvPack.last << std::endl;
 
         if (!isPresent)
             continue;
-        for (int i = ackedPacks.size(); i <= recvPack.seqnum; ++i)
+        for (int i = receivedPacks.size(); i <= recvPack.seqnum; ++i)
         {
             packetList.push_back(packet{});
-            ackedPacks.push_back(false);
+            receivedPacks.push_back(false);
         }
         packetList[recvPack.seqnum] = recvPack;
-        ackedPacks[recvPack.seqnum] = true;
-        while (cumAck < ackedPacks.size() && ackedPacks[cumAck])
+        receivedPacks[recvPack.seqnum] = true;
+        while (cumAck < receivedPacks.size() && receivedPacks[cumAck])
         {
             cumAck += 1;
         }
@@ -111,6 +110,7 @@ int main()
                        packet{999, cumAck, 1, 1, 0, {}});
             break;
         }
+        std::cout << "sending cum ack " << cumAck << std::endl;
         sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 0, 0, {}});
     }
 

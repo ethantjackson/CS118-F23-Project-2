@@ -1,0 +1,4002 @@
+RECV 999 1 ACK
+sending packet: 1
+sending packet: 2
+RECV 999 2 ACK
+sending packet: 3
+sending packet: 4
+sending packet: 5
+RECV 999 3 ACK
+sending packet: 6
+sending packet: 7
+sending packet: 8
+sending packet: 9
+sending packet: 10
+RECV 999 4 ACK
+sending packet: 11
+sending packet: 12
+RECV 999 5 ACK
+sending packet: 13
+sending packet: 14
+RECV 999 6 ACK
+sending packet: 15
+sending packet: 16
+RECV 999 7 ACK
+sending packet: 17
+sending packet: 18
+RECV 999 8 ACK
+sending packet: 19
+sending packet: 20
+RECV 999 9 ACK
+sending packet: 21
+sending packet: 22
+RECV 999 10 ACK
+sending packet: 23
+sending packet: 24
+RECV 999 11 ACK
+sending packet: 25
+sending packet: 26
+RECV 999 12 ACK
+sending packet: 27
+sending packet: 28
+RECV 999 13 ACK
+sending packet: 29
+sending packet: 30
+RECV 999 14 ACK
+sending packet: 31
+sending packet: 32
+RECV 999 15 ACK
+sending packet: 33
+sending packet: 34
+RECV 999 16 ACK
+sending packet: 35
+sending packet: 36
+RECV 999 17 ACK
+sending packet: 37
+sending packet: 38
+RECV 999 18 ACK
+sending packet: 39
+sending packet: 40
+RECV 999 19 ACK
+sending packet: 41
+sending packet: 42
+RECV 999 20 ACK
+sending packet: 43
+sending packet: 44
+RECV 999 21 ACK
+sending packet: 45
+sending packet: 46
+RECV 999 22 ACK
+sending packet: 47
+sending packet: 48
+RECV 999 23 ACK
+sending packet: 49
+sending packet: 50
+RECV 999 24 ACK
+sending packet: 51
+sending packet: 52
+RECV 999 25 ACK
+sending packet: 53
+sending packet: 54
+RECV 999 26 ACK
+sending packet: 55
+sending packet: 56
+RECV 999 27 ACK
+sending packet: 57
+sending packet: 58
+RECV 999 28 ACK
+sending packet: 59
+sending packet: 60
+RECV 999 29 ACK
+sending packet: 61
+sending packet: 62
+RECV 999 30 ACK
+sending packet: 63
+sending packet: 64
+RECV 999 31 ACK
+sending packet: 65
+sending packet: 66
+RECV 999 32 ACK
+sending packet: 67
+sending packet: 68
+RECV 999 33 ACK
+sending packet: 69
+sending packet: 70
+RECV 999 34 ACK
+sending packet: 71
+sending packet: 72
+RECV 999 34 ACK
+numDupes: 1
+RECV 999 34 ACK
+numDupes: 2
+RECV 999 34 ACK
+numDupes: 3
+fast retransmit: 34
+RECV 999 34 ACK
+numDupes: 4
+RECV 999 34 ACK
+numDupes: 5
+RECV 999 34 ACK
+numDupes: 6
+RECV 999 34 ACK
+numDupes: 7
+RECV 999 34 ACK
+numDupes: 8
+RECV 999 34 ACK
+numDupes: 9
+RECV 999 34 ACK
+numDupes: 10
+RECV 999 34 ACK
+numDupes: 11
+RECV 999 34 ACK
+numDupes: 12
+RECV 999 34 ACK
+numDupes: 13
+RECV 999 34 ACK
+numDupes: 14
+RECV 999 34 ACK
+numDupes: 15
+RECV 999 34 ACK
+numDupes: 16
+RECV 999 34 ACK
+numDupes: 17
+RECV 999 34 ACK
+numDupes: 18
+RECV 999 34 ACK
+numDupes: 19
+RECV 999 34 ACK
+numDupes: 20
+RECV 999 34 ACK
+numDupes: 21
+RECV 999 34 ACK
+numDupes: 22
+RECV 999 34 ACK
+numDupes: 23
+RECV 999 34 ACK
+numDupes: 24
+RECV 999 34 ACK
+numDupes: 25
+RECV 999 34 ACK
+numDupes: 26
+RECV 999 34 ACK
+numDupes: 27
+RECV 999 34 ACK
+numDupes: 28
+RECV 999 34 ACK
+numDupes: 29
+RECV 999 34 ACK
+numDupes: 30
+RECV 999 34 ACK
+numDupes: 31
+RECV 999 34 ACK
+numDupes: 32
+RECV 999 34 ACK
+numDupes: 33
+RECV 999 34 ACK
+numDupes: 34
+RECV 999 34 ACK
+numDupes: 35
+RECV 999 34 ACK
+numDupes: 36
+RECV 999 34 ACK
+numDupes: 37
+RECV 999 57 ACK
+sending packet: 53
+sending packet: 54
+sending packet: 55
+sending packet: 56
+sending packet: 57
+sending packet: 58
+sending packet: 59
+sending packet: 60
+sending packet: 61
+sending packet: 62
+sending packet: 63
+sending packet: 64
+sending packet: 65
+sending packet: 66
+sending packet: 67
+sending packet: 68
+sending packet: 69
+sending packet: 70
+sending packet: 71
+sending packet: 72
+sending packet: 73
+sending packet: 74
+sending packet: 75
+sending packet: 76
+RECV 999 57 ACK
+numDupes: 1
+RECV 999 57 ACK
+numDupes: 2
+RECV 999 57 ACK
+numDupes: 3
+fast retransmit: 57
+RECV 999 57 ACK
+numDupes: 4
+RECV 999 73 ACK
+sending packet: 77
+sending packet: 78
+sending packet: 79
+sending packet: 80
+sending packet: 81
+sending packet: 82
+sending packet: 83
+sending packet: 84
+sending packet: 85
+sending packet: 86
+sending packet: 87
+sending packet: 88
+sending packet: 89
+sending packet: 90
+sending packet: 91
+sending packet: 92
+sending packet: 93
+RECV 999 73 ACK
+sending packet: 74
+sending packet: 75
+sending packet: 76
+sending packet: 77
+sending packet: 78
+sending packet: 79
+sending packet: 80
+sending packet: 81
+sending packet: 82
+sending packet: 83
+sending packet: 84
+sending packet: 85
+sending packet: 86
+sending packet: 87
+sending packet: 88
+sending packet: 89
+sending packet: 90
+sending packet: 91
+sending packet: 92
+sending packet: 93
+sending packet: 94
+RECV 999 73 ACK
+numDupes: 1
+RECV 999 73 ACK
+numDupes: 2
+RECV 999 73 ACK
+numDupes: 3
+fast retransmit: 73
+RECV 999 73 ACK
+numDupes: 4
+RECV 999 73 ACK
+numDupes: 5
+RECV 999 73 ACK
+numDupes: 6
+RECV 999 73 ACK
+numDupes: 7
+RECV 999 73 ACK
+numDupes: 8
+RECV 999 73 ACK
+numDupes: 9
+RECV 999 73 ACK
+numDupes: 10
+RECV 999 73 ACK
+numDupes: 11
+RECV 999 73 ACK
+numDupes: 12
+RECV 999 73 ACK
+numDupes: 13
+RECV 999 74 ACK
+sending packet: 95
+sending packet: 96
+RECV 999 75 ACK
+sending packet: 97
+sending packet: 98
+RECV 999 76 ACK
+sending packet: 99
+sending packet: 100
+RECV 999 77 ACK
+sending packet: 101
+sending packet: 102
+RECV 999 77 ACK
+numDupes: 1
+RECV 999 78 ACK
+sending packet: 103
+sending packet: 104
+RECV 999 79 ACK
+sending packet: 105
+sending packet: 106
+RECV 999 80 ACK
+sending packet: 107
+sending packet: 108
+RECV 999 81 ACK
+sending packet: 109
+sending packet: 110
+RECV 999 82 ACK
+sending packet: 111
+sending packet: 112
+RECV 999 83 ACK
+sending packet: 113
+sending packet: 114
+RECV 999 84 ACK
+sending packet: 115
+sending packet: 116
+RECV 999 85 ACK
+sending packet: 117
+sending packet: 118
+RECV 999 86 ACK
+sending packet: 119
+sending packet: 120
+RECV 999 87 ACK
+sending packet: 121
+sending packet: 122
+RECV 999 88 ACK
+sending packet: 123
+sending packet: 124
+RECV 999 89 ACK
+sending packet: 125
+sending packet: 126
+RECV 999 90 ACK
+sending packet: 127
+sending packet: 128
+RECV 999 91 ACK
+sending packet: 129
+sending packet: 130
+RECV 999 92 ACK
+sending packet: 131
+sending packet: 132
+RECV 999 93 ACK
+sending packet: 133
+sending packet: 134
+RECV 999 94 ACK
+sending packet: 135
+sending packet: 136
+RECV 999 94 ACK
+sending packet: 117
+sending packet: 118
+sending packet: 119
+sending packet: 120
+sending packet: 121
+sending packet: 122
+sending packet: 123
+sending packet: 124
+sending packet: 125
+sending packet: 126
+sending packet: 127
+sending packet: 128
+sending packet: 129
+sending packet: 130
+sending packet: 131
+sending packet: 132
+sending packet: 133
+sending packet: 134
+sending packet: 135
+sending packet: 136
+sending packet: 137
+RECV 999 94 ACK
+numDupes: 1
+RECV 999 94 ACK
+numDupes: 2
+RECV 999 94 ACK
+numDupes: 3
+fast retransmit: 94
+RECV 999 94 ACK
+numDupes: 4
+RECV 999 94 ACK
+numDupes: 5
+RECV 999 94 ACK
+numDupes: 6
+RECV 999 94 ACK
+numDupes: 7
+RECV 999 94 ACK
+numDupes: 8
+RECV 999 94 ACK
+numDupes: 9
+RECV 999 94 ACK
+numDupes: 10
+RECV 999 94 ACK
+numDupes: 11
+RECV 999 94 ACK
+numDupes: 12
+RECV 999 94 ACK
+numDupes: 13
+RECV 999 94 ACK
+numDupes: 14
+RECV 999 94 ACK
+numDupes: 15
+RECV 999 94 ACK
+numDupes: 16
+RECV 999 94 ACK
+numDupes: 17
+RECV 999 94 ACK
+numDupes: 18
+RECV 999 94 ACK
+numDupes: 19
+RECV 999 95 ACK
+sending packet: 138
+sending packet: 139
+RECV 999 95 ACK
+numDupes: 1
+RECV 999 96 ACK
+sending packet: 140
+sending packet: 141
+RECV 999 97 ACK
+sending packet: 142
+sending packet: 143
+RECV 999 98 ACK
+sending packet: 144
+sending packet: 145
+RECV 999 99 ACK
+sending packet: 146
+sending packet: 147
+RECV 999 100 ACK
+sending packet: 148
+sending packet: 149
+RECV 999 101 ACK
+sending packet: 150
+sending packet: 151
+RECV 999 102 ACK
+sending packet: 152
+sending packet: 153
+RECV 999 103 ACK
+sending packet: 154
+sending packet: 155
+RECV 999 104 ACK
+sending packet: 156
+sending packet: 157
+RECV 999 105 ACK
+sending packet: 158
+sending packet: 159
+RECV 999 106 ACK
+sending packet: 160
+sending packet: 161
+RECV 999 107 ACK
+sending packet: 162
+sending packet: 163
+RECV 999 108 ACK
+sending packet: 164
+sending packet: 165
+RECV 999 109 ACK
+sending packet: 166
+sending packet: 167
+RECV 999 110 ACK
+sending packet: 168
+sending packet: 169
+RECV 999 111 ACK
+sending packet: 170
+sending packet: 171
+RECV 999 112 ACK
+sending packet: 172
+sending packet: 173
+RECV 999 113 ACK
+sending packet: 174
+sending packet: 175
+RECV 999 114 ACK
+sending packet: 176
+sending packet: 177
+RECV 999 115 ACK
+sending packet: 178
+sending packet: 179
+RECV 999 116 ACK
+sending packet: 180
+sending packet: 181
+RECV 999 117 ACK
+sending packet: 182
+sending packet: 183
+RECV 999 118 ACK
+sending packet: 184
+sending packet: 185
+RECV 999 119 ACK
+sending packet: 186
+sending packet: 187
+RECV 999 120 ACK
+sending packet: 188
+sending packet: 189
+RECV 999 121 ACK
+sending packet: 190
+sending packet: 191
+RECV 999 122 ACK
+sending packet: 192
+sending packet: 193
+RECV 999 123 ACK
+sending packet: 194
+sending packet: 195
+RECV 999 124 ACK
+sending packet: 196
+sending packet: 197
+RECV 999 125 ACK
+sending packet: 198
+sending packet: 199
+RECV 999 126 ACK
+sending packet: 200
+sending packet: 201
+RECV 999 127 ACK
+sending packet: 202
+sending packet: 203
+RECV 999 128 ACK
+sending packet: 204
+sending packet: 205
+RECV 999 129 ACK
+sending packet: 206
+sending packet: 207
+RECV 999 130 ACK
+sending packet: 208
+sending packet: 209
+RECV 999 131 ACK
+sending packet: 210
+sending packet: 211
+RECV 999 132 ACK
+sending packet: 212
+sending packet: 213
+RECV 999 133 ACK
+sending packet: 214
+sending packet: 215
+RECV 999 134 ACK
+sending packet: 216
+sending packet: 217
+RECV 999 135 ACK
+sending packet: 218
+sending packet: 219
+RECV 999 136 ACK
+sending packet: 220
+sending packet: 221
+RECV 999 137 ACK
+sending packet: 222
+sending packet: 223
+RECV 999 137 ACK
+sending packet: 204
+sending packet: 205
+sending packet: 206
+sending packet: 207
+sending packet: 208
+sending packet: 209
+sending packet: 210
+sending packet: 211
+sending packet: 212
+sending packet: 213
+sending packet: 214
+sending packet: 215
+sending packet: 216
+sending packet: 217
+sending packet: 218
+sending packet: 219
+sending packet: 220
+sending packet: 221
+sending packet: 222
+sending packet: 223
+sending packet: 224
+RECV 999 137 ACK
+numDupes: 1
+RECV 999 137 ACK
+numDupes: 2
+RECV 999 137 ACK
+numDupes: 3
+fast retransmit: 137
+RECV 999 137 ACK
+numDupes: 4
+RECV 999 137 ACK
+numDupes: 5
+RECV 999 137 ACK
+numDupes: 6
+RECV 999 137 ACK
+numDupes: 7
+RECV 999 137 ACK
+numDupes: 8
+RECV 999 137 ACK
+numDupes: 9
+RECV 999 137 ACK
+numDupes: 10
+RECV 999 137 ACK
+numDupes: 11
+RECV 999 137 ACK
+numDupes: 12
+RECV 999 137 ACK
+numDupes: 13
+RECV 999 137 ACK
+numDupes: 14
+RECV 999 137 ACK
+numDupes: 15
+RECV 999 137 ACK
+numDupes: 16
+RECV 999 137 ACK
+numDupes: 17
+RECV 999 137 ACK
+numDupes: 18
+RECV 999 137 ACK
+numDupes: 19
+RECV 999 138 ACK
+sending packet: 225
+sending packet: 226
+RECV 999 138 ACK
+numDupes: 1
+RECV 999 139 ACK
+sending packet: 227
+sending packet: 228
+RECV 999 140 ACK
+sending packet: 229
+sending packet: 230
+RECV 999 141 ACK
+sending packet: 231
+sending packet: 232
+RECV 999 142 ACK
+sending packet: 233
+sending packet: 234
+RECV 999 142 ACK
+numDupes: 1
+RECV 999 142 ACK
+numDupes: 2
+RECV 999 142 ACK
+numDupes: 3
+fast retransmit: 142
+RECV 999 142 ACK
+numDupes: 4
+RECV 999 142 ACK
+numDupes: 5
+RECV 999 142 ACK
+numDupes: 6
+RECV 999 142 ACK
+numDupes: 7
+RECV 999 142 ACK
+numDupes: 8
+RECV 999 142 ACK
+numDupes: 9
+RECV 999 142 ACK
+numDupes: 10
+RECV 999 142 ACK
+numDupes: 11
+RECV 999 142 ACK
+numDupes: 12
+RECV 999 142 ACK
+numDupes: 13
+RECV 999 142 ACK
+numDupes: 14
+RECV 999 142 ACK
+numDupes: 15
+RECV 999 142 ACK
+numDupes: 16
+RECV 999 142 ACK
+numDupes: 17
+RECV 999 142 ACK
+numDupes: 18
+RECV 999 142 ACK
+numDupes: 19
+RECV 999 142 ACK
+numDupes: 20
+RECV 999 142 ACK
+numDupes: 21
+RECV 999 142 ACK
+numDupes: 22
+RECV 999 142 ACK
+numDupes: 23
+RECV 999 142 ACK
+numDupes: 24
+RECV 999 142 ACK
+numDupes: 25
+RECV 999 142 ACK
+numDupes: 26
+RECV 999 142 ACK
+numDupes: 27
+RECV 999 142 ACK
+numDupes: 28
+RECV 999 142 ACK
+numDupes: 29
+RECV 999 142 ACK
+numDupes: 30
+RECV 999 142 ACK
+numDupes: 31
+RECV 999 142 ACK
+numDupes: 32
+RECV 999 142 ACK
+numDupes: 33
+RECV 999 142 ACK
+numDupes: 34
+RECV 999 142 ACK
+numDupes: 35
+RECV 999 142 ACK
+numDupes: 36
+RECV 999 142 ACK
+numDupes: 37
+RECV 999 142 ACK
+numDupes: 38
+RECV 999 142 ACK
+numDupes: 39
+RECV 999 142 ACK
+numDupes: 40
+RECV 999 142 ACK
+numDupes: 41
+RECV 999 142 ACK
+numDupes: 42
+RECV 999 142 ACK
+numDupes: 43
+RECV 999 142 ACK
+numDupes: 44
+RECV 999 142 ACK
+numDupes: 45
+RECV 999 142 ACK
+numDupes: 46
+RECV 999 142 ACK
+numDupes: 47
+RECV 999 142 ACK
+numDupes: 48
+RECV 999 142 ACK
+numDupes: 49
+RECV 999 142 ACK
+numDupes: 50
+RECV 999 142 ACK
+numDupes: 51
+RECV 999 142 ACK
+numDupes: 52
+RECV 999 142 ACK
+numDupes: 53
+RECV 999 142 ACK
+numDupes: 54
+RECV 999 142 ACK
+numDupes: 55
+RECV 999 142 ACK
+numDupes: 56
+RECV 999 142 ACK
+numDupes: 57
+RECV 999 142 ACK
+numDupes: 58
+RECV 999 142 ACK
+numDupes: 59
+RECV 999 142 ACK
+numDupes: 60
+RECV 999 142 ACK
+numDupes: 61
+RECV 999 142 ACK
+numDupes: 62
+RECV 999 142 ACK
+numDupes: 63
+RECV 999 142 ACK
+numDupes: 64
+RECV 999 142 ACK
+numDupes: 65
+RECV 999 142 ACK
+numDupes: 66
+RECV 999 142 ACK
+numDupes: 67
+RECV 999 142 ACK
+numDupes: 68
+RECV 999 142 ACK
+numDupes: 69
+RECV 999 142 ACK
+numDupes: 70
+RECV 999 142 ACK
+numDupes: 71
+RECV 999 142 ACK
+numDupes: 72
+RECV 999 142 ACK
+numDupes: 73
+RECV 999 142 ACK
+numDupes: 74
+RECV 999 142 ACK
+numDupes: 75
+RECV 999 142 ACK
+numDupes: 76
+RECV 999 142 ACK
+numDupes: 77
+RECV 999 142 ACK
+numDupes: 78
+RECV 999 142 ACK
+numDupes: 79
+RECV 999 142 ACK
+numDupes: 80
+RECV 999 142 ACK
+numDupes: 81
+RECV 999 142 ACK
+numDupes: 82
+RECV 999 142 ACK
+numDupes: 83
+RECV 999 142 ACK
+numDupes: 84
+RECV 999 142 ACK
+numDupes: 85
+RECV 999 142 ACK
+numDupes: 86
+RECV 999 142 ACK
+numDupes: 87
+RECV 999 142 ACK
+numDupes: 88
+RECV 999 142 ACK
+numDupes: 89
+RECV 999 142 ACK
+numDupes: 90
+RECV 999 142 ACK
+numDupes: 91
+RECV 999 142 ACK
+numDupes: 92
+RECV 999 142 ACK
+numDupes: 93
+RECV 999 142 ACK
+numDupes: 94
+RECV 999 142 ACK
+numDupes: 95
+RECV 999 142 ACK
+numDupes: 96
+RECV 999 142 ACK
+numDupes: 97
+RECV 999 142 ACK
+numDupes: 98
+RECV 999 142 ACK
+numDupes: 99
+RECV 999 142 ACK
+numDupes: 100
+RECV 999 142 ACK
+numDupes: 101
+RECV 999 142 ACK
+numDupes: 102
+RECV 999 142 ACK
+numDupes: 103
+RECV 999 142 ACK
+numDupes: 104
+RECV 999 142 ACK
+numDupes: 105
+RECV 999 142 ACK
+numDupes: 106
+RECV 999 142 ACK
+numDupes: 107
+RECV 999 142 ACK
+numDupes: 108
+RECV 999 142 ACK
+numDupes: 109
+RECV 999 142 ACK
+numDupes: 110
+RECV 999 142 ACK
+numDupes: 111
+RECV 999 142 ACK
+numDupes: 112
+RECV 999 235 ACK
+sending packet: 235
+sending packet: 236
+sending packet: 237
+sending packet: 238
+sending packet: 239
+sending packet: 240
+sending packet: 241
+sending packet: 242
+sending packet: 243
+sending packet: 244
+sending packet: 245
+sending packet: 246
+sending packet: 247
+sending packet: 248
+sending packet: 249
+sending packet: 250
+sending packet: 251
+sending packet: 252
+sending packet: 253
+sending packet: 254
+sending packet: 255
+sending packet: 256
+sending packet: 257
+sending packet: 258
+sending packet: 259
+sending packet: 260
+sending packet: 261
+sending packet: 262
+sending packet: 263
+sending packet: 264
+sending packet: 265
+sending packet: 266
+sending packet: 267
+sending packet: 268
+sending packet: 269
+sending packet: 270
+sending packet: 271
+sending packet: 272
+sending packet: 273
+sending packet: 274
+sending packet: 275
+sending packet: 276
+sending packet: 277
+sending packet: 278
+sending packet: 279
+sending packet: 280
+sending packet: 281
+sending packet: 282
+sending packet: 283
+sending packet: 284
+sending packet: 285
+sending packet: 286
+sending packet: 287
+sending packet: 288
+sending packet: 289
+sending packet: 290
+sending packet: 291
+sending packet: 292
+sending packet: 293
+sending packet: 294
+sending packet: 295
+sending packet: 296
+sending packet: 297
+sending packet: 298
+sending packet: 299
+sending packet: 300
+sending packet: 301
+sending packet: 302
+sending packet: 303
+sending packet: 304
+sending packet: 305
+sending packet: 306
+sending packet: 307
+sending packet: 308
+sending packet: 309
+sending packet: 310
+sending packet: 311
+sending packet: 312
+sending packet: 313
+sending packet: 314
+sending packet: 315
+sending packet: 316
+sending packet: 317
+sending packet: 318
+sending packet: 319
+sending packet: 320
+sending packet: 321
+sending packet: 322
+sending packet: 323
+sending packet: 324
+sending packet: 325
+sending packet: 326
+sending packet: 327
+sending packet: 328
+RECV 999 236 ACK
+sending packet: 309
+sending packet: 310
+sending packet: 311
+sending packet: 312
+sending packet: 313
+sending packet: 314
+sending packet: 315
+sending packet: 316
+sending packet: 317
+sending packet: 318
+sending packet: 319
+sending packet: 320
+sending packet: 321
+sending packet: 322
+sending packet: 323
+sending packet: 324
+sending packet: 325
+sending packet: 326
+sending packet: 327
+sending packet: 328
+sending packet: 329
+sending packet: 330
+RECV 999 237 ACK
+sending packet: 331
+sending packet: 332
+RECV 999 238 ACK
+sending packet: 333
+sending packet: 334
+RECV 999 239 ACK
+sending packet: 335
+sending packet: 336
+RECV 999 240 ACK
+sending packet: 337
+sending packet: 338
+RECV 999 241 ACK
+sending packet: 339
+sending packet: 340
+RECV 999 242 ACK
+sending packet: 341
+sending packet: 342
+RECV 999 243 ACK
+sending packet: 343
+sending packet: 344
+RECV 999 244 ACK
+sending packet: 345
+sending packet: 346
+RECV 999 245 ACK
+sending packet: 347
+sending packet: 348
+RECV 999 246 ACK
+sending packet: 349
+sending packet: 350
+RECV 999 247 ACK
+sending packet: 351
+sending packet: 352
+RECV 999 248 ACK
+sending packet: 353
+sending packet: 354
+RECV 999 249 ACK
+sending packet: 355
+sending packet: 356
+RECV 999 250 ACK
+sending packet: 357
+sending packet: 358
+RECV 999 251 ACK
+sending packet: 359
+sending packet: 360
+RECV 999 252 ACK
+sending packet: 361
+sending packet: 362
+RECV 999 253 ACK
+sending packet: 363
+sending packet: 364
+RECV 999 254 ACK
+sending packet: 365
+sending packet: 366
+RECV 999 255 ACK
+sending packet: 367
+sending packet: 368
+RECV 999 255 ACK
+numDupes: 1
+RECV 999 255 ACK
+numDupes: 2
+RECV 999 255 ACK
+numDupes: 3
+fast retransmit: 255
+RECV 999 255 ACK
+numDupes: 4
+RECV 999 255 ACK
+numDupes: 5
+RECV 999 255 ACK
+numDupes: 6
+RECV 999 255 ACK
+numDupes: 7
+RECV 999 255 ACK
+numDupes: 8
+RECV 999 255 ACK
+numDupes: 9
+RECV 999 255 ACK
+numDupes: 10
+RECV 999 255 ACK
+numDupes: 11
+RECV 999 255 ACK
+numDupes: 12
+RECV 999 255 ACK
+numDupes: 13
+RECV 999 255 ACK
+numDupes: 14
+RECV 999 255 ACK
+numDupes: 15
+RECV 999 255 ACK
+numDupes: 16
+RECV 999 255 ACK
+numDupes: 17
+RECV 999 255 ACK
+numDupes: 18
+RECV 999 255 ACK
+numDupes: 19
+RECV 999 255 ACK
+numDupes: 20
+RECV 999 255 ACK
+numDupes: 21
+RECV 999 255 ACK
+numDupes: 22
+RECV 999 255 ACK
+numDupes: 23
+RECV 999 255 ACK
+numDupes: 24
+RECV 999 255 ACK
+numDupes: 25
+RECV 999 255 ACK
+numDupes: 26
+RECV 999 255 ACK
+numDupes: 27
+RECV 999 255 ACK
+numDupes: 28
+RECV 999 255 ACK
+numDupes: 29
+RECV 999 255 ACK
+numDupes: 30
+RECV 999 255 ACK
+numDupes: 31
+RECV 999 255 ACK
+numDupes: 32
+RECV 999 255 ACK
+numDupes: 33
+RECV 999 255 ACK
+numDupes: 34
+RECV 999 255 ACK
+numDupes: 35
+RECV 999 255 ACK
+numDupes: 36
+RECV 999 255 ACK
+numDupes: 37
+RECV 999 255 ACK
+numDupes: 38
+RECV 999 255 ACK
+numDupes: 39
+RECV 999 255 ACK
+numDupes: 40
+RECV 999 255 ACK
+numDupes: 41
+RECV 999 255 ACK
+numDupes: 42
+RECV 999 255 ACK
+numDupes: 43
+RECV 999 255 ACK
+numDupes: 44
+RECV 999 255 ACK
+numDupes: 45
+RECV 999 255 ACK
+numDupes: 46
+RECV 999 255 ACK
+numDupes: 47
+RECV 999 255 ACK
+numDupes: 48
+RECV 999 255 ACK
+numDupes: 49
+RECV 999 255 ACK
+numDupes: 50
+RECV 999 255 ACK
+numDupes: 51
+RECV 999 255 ACK
+numDupes: 52
+RECV 999 255 ACK
+numDupes: 53
+RECV 999 255 ACK
+numDupes: 54
+RECV 999 255 ACK
+numDupes: 55
+RECV 999 255 ACK
+numDupes: 56
+RECV 999 255 ACK
+numDupes: 57
+RECV 999 255 ACK
+numDupes: 58
+RECV 999 255 ACK
+numDupes: 59
+RECV 999 255 ACK
+numDupes: 60
+RECV 999 255 ACK
+numDupes: 61
+RECV 999 255 ACK
+numDupes: 62
+RECV 999 255 ACK
+numDupes: 63
+RECV 999 255 ACK
+numDupes: 64
+RECV 999 255 ACK
+numDupes: 65
+RECV 999 255 ACK
+numDupes: 66
+RECV 999 255 ACK
+numDupes: 67
+RECV 999 255 ACK
+numDupes: 68
+RECV 999 255 ACK
+numDupes: 69
+RECV 999 255 ACK
+numDupes: 70
+RECV 999 255 ACK
+numDupes: 71
+RECV 999 255 ACK
+numDupes: 72
+RECV 999 255 ACK
+numDupes: 73
+RECV 999 255 ACK
+numDupes: 74
+RECV 999 255 ACK
+numDupes: 75
+RECV 999 255 ACK
+numDupes: 76
+RECV 999 255 ACK
+numDupes: 77
+RECV 999 255 ACK
+numDupes: 78
+RECV 999 255 ACK
+numDupes: 79
+RECV 999 255 ACK
+numDupes: 80
+RECV 999 255 ACK
+numDupes: 81
+RECV 999 255 ACK
+numDupes: 82
+RECV 999 255 ACK
+numDupes: 83
+RECV 999 255 ACK
+numDupes: 84
+RECV 999 255 ACK
+numDupes: 85
+RECV 999 255 ACK
+numDupes: 86
+RECV 999 255 ACK
+numDupes: 87
+RECV 999 255 ACK
+numDupes: 88
+RECV 999 255 ACK
+numDupes: 89
+RECV 999 255 ACK
+numDupes: 90
+RECV 999 255 ACK
+numDupes: 91
+RECV 999 255 ACK
+numDupes: 92
+RECV 999 255 ACK
+numDupes: 93
+RECV 999 255 ACK
+numDupes: 94
+RECV 999 255 ACK
+numDupes: 95
+RECV 999 255 ACK
+numDupes: 96
+RECV 999 255 ACK
+numDupes: 97
+RECV 999 255 ACK
+numDupes: 98
+RECV 999 255 ACK
+numDupes: 99
+RECV 999 255 ACK
+numDupes: 100
+RECV 999 255 ACK
+numDupes: 101
+RECV 999 255 ACK
+numDupes: 102
+RECV 999 255 ACK
+numDupes: 103
+RECV 999 255 ACK
+numDupes: 104
+RECV 999 255 ACK
+numDupes: 105
+RECV 999 255 ACK
+numDupes: 106
+RECV 999 255 ACK
+numDupes: 107
+RECV 999 255 ACK
+numDupes: 108
+RECV 999 255 ACK
+numDupes: 109
+RECV 999 255 ACK
+numDupes: 110
+RECV 999 255 ACK
+numDupes: 111
+RECV 999 255 ACK
+numDupes: 112
+RECV 999 255 ACK
+numDupes: 113
+RECV 999 255 ACK
+numDupes: 114
+RECV 999 255 ACK
+numDupes: 115
+RECV 999 255 ACK
+numDupes: 116
+RECV 999 255 ACK
+numDupes: 117
+RECV 999 255 ACK
+numDupes: 118
+RECV 999 255 ACK
+numDupes: 119
+RECV 999 255 ACK
+numDupes: 120
+RECV 999 255 ACK
+numDupes: 121
+RECV 999 255 ACK
+numDupes: 122
+RECV 999 255 ACK
+numDupes: 123
+RECV 999 255 ACK
+numDupes: 124
+RECV 999 255 ACK
+numDupes: 125
+RECV 999 255 ACK
+numDupes: 126
+RECV 999 255 ACK
+numDupes: 127
+RECV 999 255 ACK
+numDupes: 128
+RECV 999 255 ACK
+numDupes: 129
+RECV 999 255 ACK
+numDupes: 130
+RECV 999 255 ACK
+numDupes: 131
+RECV 999 255 ACK
+numDupes: 132
+RECV 999 255 ACK
+numDupes: 133
+RECV 999 369 ACK
+sending packet: 369
+sending packet: 370
+sending packet: 371
+sending packet: 372
+sending packet: 373
+sending packet: 374
+sending packet: 375
+sending packet: 376
+sending packet: 377
+sending packet: 378
+sending packet: 379
+sending packet: 380
+sending packet: 381
+sending packet: 382
+sending packet: 383
+sending packet: 384
+sending packet: 385
+sending packet: 386
+sending packet: 387
+sending packet: 388
+sending packet: 389
+sending packet: 390
+sending packet: 391
+sending packet: 392
+sending packet: 393
+sending packet: 394
+sending packet: 395
+sending packet: 396
+sending packet: 397
+sending packet: 398
+sending packet: 399
+sending packet: 400
+sending packet: 401
+sending packet: 402
+sending packet: 403
+sending packet: 404
+sending packet: 405
+sending packet: 406
+sending packet: 407
+sending packet: 408
+sending packet: 409
+sending packet: 410
+sending packet: 411
+sending packet: 412
+sending packet: 413
+sending packet: 414
+sending packet: 415
+sending packet: 416
+sending packet: 417
+sending packet: 418
+sending packet: 419
+sending packet: 420
+sending packet: 421
+sending packet: 422
+sending packet: 423
+sending packet: 424
+sending packet: 425
+sending packet: 426
+sending packet: 427
+sending packet: 428
+sending packet: 429
+sending packet: 430
+sending packet: 431
+sending packet: 432
+sending packet: 433
+sending packet: 434
+sending packet: 435
+sending packet: 436
+sending packet: 437
+sending packet: 438
+sending packet: 439
+sending packet: 440
+sending packet: 441
+sending packet: 442
+sending packet: 443
+sending packet: 444
+sending packet: 445
+sending packet: 446
+sending packet: 447
+sending packet: 448
+sending packet: 449
+sending packet: 450
+sending packet: 451
+sending packet: 452
+sending packet: 453
+sending packet: 454
+sending packet: 455
+sending packet: 456
+sending packet: 457
+sending packet: 458
+sending packet: 459
+sending packet: 460
+sending packet: 461
+sending packet: 462
+sending packet: 463
+sending packet: 464
+sending packet: 465
+sending packet: 466
+sending packet: 467
+sending packet: 468
+sending packet: 469
+sending packet: 470
+sending packet: 471
+sending packet: 472
+sending packet: 473
+sending packet: 474
+sending packet: 475
+sending packet: 476
+sending packet: 477
+sending packet: 478
+sending packet: 479
+sending packet: 480
+sending packet: 481
+sending packet: 482
+sending packet: 483
+RECV 999 370 ACK
+sending packet: 464
+sending packet: 465
+sending packet: 466
+sending packet: 467
+sending packet: 468
+sending packet: 469
+sending packet: 470
+sending packet: 471
+sending packet: 472
+sending packet: 473
+sending packet: 474
+sending packet: 475
+sending packet: 476
+sending packet: 477
+sending packet: 478
+sending packet: 479
+sending packet: 480
+sending packet: 481
+sending packet: 482
+sending packet: 483
+sending packet: 484
+sending packet: 485
+RECV 999 371 ACK
+sending packet: 486
+sending packet: 487
+RECV 999 372 ACK
+sending packet: 488
+sending packet: 489
+RECV 999 373 ACK
+sending packet: 490
+sending packet: 491
+RECV 999 374 ACK
+sending packet: 492
+sending packet: 493
+RECV 999 375 ACK
+sending packet: 494
+sending packet: 495
+RECV 999 376 ACK
+sending packet: 496
+sending packet: 497
+RECV 999 377 ACK
+sending packet: 498
+sending packet: 499
+RECV 999 378 ACK
+sending packet: 500
+sending packet: 501
+RECV 999 379 ACK
+sending packet: 502
+sending packet: 503
+RECV 999 380 ACK
+sending packet: 504
+sending packet: 505
+RECV 999 381 ACK
+sending packet: 506
+sending packet: 507
+RECV 999 382 ACK
+sending packet: 508
+sending packet: 509
+RECV 999 383 ACK
+sending packet: 510
+sending packet: 511
+RECV 999 384 ACK
+sending packet: 512
+sending packet: 513
+RECV 999 385 ACK
+sending packet: 514
+sending packet: 515
+RECV 999 386 ACK
+sending packet: 516
+sending packet: 517
+RECV 999 387 ACK
+sending packet: 518
+sending packet: 519
+RECV 999 388 ACK
+sending packet: 520
+sending packet: 521
+RECV 999 389 ACK
+sending packet: 522
+sending packet: 523
+RECV 999 390 ACK
+sending packet: 524
+sending packet: 525
+RECV 999 391 ACK
+sending packet: 526
+sending packet: 527
+RECV 999 392 ACK
+sending packet: 528
+sending packet: 529
+RECV 999 393 ACK
+sending packet: 530
+sending packet: 531
+RECV 999 394 ACK
+sending packet: 532
+sending packet: 533
+RECV 999 395 ACK
+sending packet: 534
+sending packet: 535
+RECV 999 396 ACK
+sending packet: 536
+sending packet: 537
+RECV 999 397 ACK
+sending packet: 538
+sending packet: 539
+RECV 999 398 ACK
+sending packet: 540
+sending packet: 541
+RECV 999 399 ACK
+sending packet: 542
+sending packet: 543
+RECV 999 400 ACK
+sending packet: 544
+sending packet: 545
+RECV 999 401 ACK
+sending packet: 546
+sending packet: 547
+RECV 999 402 ACK
+sending packet: 548
+sending packet: 549
+RECV 999 403 ACK
+sending packet: 550
+sending packet: 551
+RECV 999 404 ACK
+sending packet: 552
+sending packet: 553
+RECV 999 405 ACK
+sending packet: 554
+sending packet: 555
+RECV 999 406 ACK
+sending packet: 556
+sending packet: 557
+RECV 999 407 ACK
+sending packet: 558
+sending packet: 559
+RECV 999 408 ACK
+sending packet: 560
+sending packet: 561
+RECV 999 409 ACK
+sending packet: 562
+sending packet: 563
+RECV 999 410 ACK
+sending packet: 564
+sending packet: 565
+RECV 999 411 ACK
+sending packet: 566
+sending packet: 567
+RECV 999 412 ACK
+sending packet: 568
+sending packet: 569
+RECV 999 413 ACK
+sending packet: 570
+sending packet: 571
+RECV 999 414 ACK
+sending packet: 572
+sending packet: 573
+RECV 999 415 ACK
+sending packet: 574
+sending packet: 575
+RECV 999 416 ACK
+sending packet: 576
+sending packet: 577
+RECV 999 417 ACK
+sending packet: 578
+sending packet: 579
+RECV 999 418 ACK
+sending packet: 580
+sending packet: 581
+RECV 999 419 ACK
+sending packet: 582
+sending packet: 583
+RECV 999 420 ACK
+sending packet: 584
+sending packet: 585
+RECV 999 421 ACK
+sending packet: 586
+sending packet: 587
+RECV 999 422 ACK
+sending packet: 588
+sending packet: 589
+RECV 999 423 ACK
+sending packet: 590
+sending packet: 591
+RECV 999 424 ACK
+sending packet: 592
+sending packet: 593
+RECV 999 425 ACK
+sending packet: 594
+sending packet: 595
+RECV 999 426 ACK
+sending packet: 596
+sending packet: 597
+RECV 999 427 ACK
+sending packet: 598
+sending packet: 599
+RECV 999 428 ACK
+sending packet: 600
+sending packet: 601
+RECV 999 429 ACK
+sending packet: 602
+sending packet: 603
+RECV 999 431 ACK
+sending packet: 604
+sending packet: 605
+sending packet: 606
+RECV 999 432 ACK
+sending packet: 607
+sending packet: 608
+RECV 999 433 ACK
+sending packet: 609
+sending packet: 610
+RECV 999 434 ACK
+sending packet: 611
+sending packet: 612
+RECV 999 435 ACK
+sending packet: 613
+sending packet: 614
+RECV 999 436 ACK
+sending packet: 615
+sending packet: 616
+RECV 999 437 ACK
+sending packet: 617
+sending packet: 618
+RECV 999 438 ACK
+sending packet: 619
+sending packet: 620
+RECV 999 439 ACK
+sending packet: 621
+sending packet: 622
+RECV 999 440 ACK
+sending packet: 623
+sending packet: 624
+RECV 999 441 ACK
+sending packet: 625
+sending packet: 626
+RECV 999 442 ACK
+sending packet: 627
+sending packet: 628
+RECV 999 443 ACK
+sending packet: 629
+sending packet: 630
+RECV 999 444 ACK
+sending packet: 631
+sending packet: 632
+RECV 999 445 ACK
+sending packet: 633
+sending packet: 634
+RECV 999 446 ACK
+sending packet: 635
+sending packet: 636
+RECV 999 447 ACK
+sending packet: 637
+sending packet: 638
+RECV 999 448 ACK
+sending packet: 639
+sending packet: 640
+RECV 999 449 ACK
+sending packet: 641
+sending packet: 642
+RECV 999 450 ACK
+sending packet: 643
+sending packet: 644
+RECV 999 451 ACK
+sending packet: 645
+sending packet: 646
+RECV 999 452 ACK
+sending packet: 647
+sending packet: 648
+RECV 999 453 ACK
+sending packet: 649
+sending packet: 650
+RECV 999 454 ACK
+sending packet: 651
+sending packet: 652
+RECV 999 455 ACK
+sending packet: 653
+sending packet: 654
+RECV 999 456 ACK
+sending packet: 655
+sending packet: 656
+RECV 999 457 ACK
+sending packet: 657
+sending packet: 658
+RECV 999 458 ACK
+sending packet: 659
+sending packet: 660
+RECV 999 458 ACK
+numDupes: 1
+RECV 999 458 ACK
+numDupes: 2
+RECV 999 458 ACK
+numDupes: 3
+fast retransmit: 458
+RECV 999 458 ACK
+numDupes: 4
+RECV 999 458 ACK
+numDupes: 5
+RECV 999 458 ACK
+numDupes: 6
+RECV 999 458 ACK
+numDupes: 7
+RECV 999 458 ACK
+numDupes: 8
+RECV 999 458 ACK
+numDupes: 9
+RECV 999 458 ACK
+numDupes: 10
+RECV 999 458 ACK
+numDupes: 11
+RECV 999 458 ACK
+numDupes: 12
+RECV 999 458 ACK
+numDupes: 13
+RECV 999 458 ACK
+numDupes: 14
+RECV 999 458 ACK
+numDupes: 15
+RECV 999 458 ACK
+numDupes: 16
+RECV 999 458 ACK
+numDupes: 17
+RECV 999 458 ACK
+numDupes: 18
+RECV 999 458 ACK
+numDupes: 19
+RECV 999 458 ACK
+numDupes: 20
+RECV 999 458 ACK
+numDupes: 21
+RECV 999 458 ACK
+numDupes: 22
+RECV 999 458 ACK
+numDupes: 23
+RECV 999 458 ACK
+numDupes: 24
+RECV 999 458 ACK
+numDupes: 25
+RECV 999 458 ACK
+numDupes: 26
+RECV 999 458 ACK
+numDupes: 27
+RECV 999 458 ACK
+numDupes: 28
+RECV 999 458 ACK
+numDupes: 29
+RECV 999 458 ACK
+numDupes: 30
+RECV 999 458 ACK
+numDupes: 31
+RECV 999 458 ACK
+numDupes: 32
+RECV 999 458 ACK
+numDupes: 33
+RECV 999 458 ACK
+numDupes: 34
+RECV 999 458 ACK
+numDupes: 35
+RECV 999 458 ACK
+numDupes: 36
+RECV 999 458 ACK
+numDupes: 37
+RECV 999 458 ACK
+numDupes: 38
+RECV 999 458 ACK
+numDupes: 39
+RECV 999 458 ACK
+numDupes: 40
+RECV 999 458 ACK
+numDupes: 41
+RECV 999 458 ACK
+numDupes: 42
+RECV 999 458 ACK
+numDupes: 43
+RECV 999 458 ACK
+numDupes: 44
+RECV 999 458 ACK
+numDupes: 45
+RECV 999 458 ACK
+numDupes: 46
+RECV 999 458 ACK
+numDupes: 47
+RECV 999 458 ACK
+numDupes: 48
+RECV 999 458 ACK
+numDupes: 49
+RECV 999 458 ACK
+numDupes: 50
+RECV 999 458 ACK
+numDupes: 51
+RECV 999 458 ACK
+numDupes: 52
+RECV 999 458 ACK
+numDupes: 53
+RECV 999 458 ACK
+numDupes: 54
+RECV 999 458 ACK
+numDupes: 55
+RECV 999 458 ACK
+numDupes: 56
+RECV 999 458 ACK
+numDupes: 57
+RECV 999 458 ACK
+numDupes: 58
+RECV 999 458 ACK
+numDupes: 59
+RECV 999 458 ACK
+numDupes: 60
+RECV 999 458 ACK
+numDupes: 61
+RECV 999 458 ACK
+numDupes: 62
+RECV 999 458 ACK
+numDupes: 63
+RECV 999 458 ACK
+numDupes: 64
+RECV 999 458 ACK
+numDupes: 65
+RECV 999 458 ACK
+numDupes: 66
+RECV 999 458 ACK
+numDupes: 67
+RECV 999 458 ACK
+numDupes: 68
+RECV 999 458 ACK
+numDupes: 69
+RECV 999 458 ACK
+numDupes: 70
+RECV 999 458 ACK
+numDupes: 71
+RECV 999 458 ACK
+numDupes: 72
+RECV 999 458 ACK
+numDupes: 73
+RECV 999 458 ACK
+numDupes: 74
+RECV 999 458 ACK
+numDupes: 75
+RECV 999 458 ACK
+numDupes: 76
+RECV 999 458 ACK
+numDupes: 77
+RECV 999 458 ACK
+numDupes: 78
+RECV 999 458 ACK
+numDupes: 79
+RECV 999 458 ACK
+numDupes: 80
+RECV 999 458 ACK
+numDupes: 81
+RECV 999 458 ACK
+numDupes: 82
+RECV 999 458 ACK
+numDupes: 83
+RECV 999 458 ACK
+numDupes: 84
+RECV 999 458 ACK
+numDupes: 85
+RECV 999 458 ACK
+numDupes: 86
+RECV 999 458 ACK
+numDupes: 87
+RECV 999 458 ACK
+numDupes: 88
+RECV 999 458 ACK
+numDupes: 89
+RECV 999 458 ACK
+numDupes: 90
+RECV 999 458 ACK
+numDupes: 91
+RECV 999 458 ACK
+numDupes: 92
+RECV 999 458 ACK
+numDupes: 93
+RECV 999 458 ACK
+numDupes: 94
+RECV 999 458 ACK
+numDupes: 95
+RECV 999 458 ACK
+numDupes: 96
+RECV 999 458 ACK
+numDupes: 97
+RECV 999 458 ACK
+numDupes: 98
+RECV 999 458 ACK
+numDupes: 99
+RECV 999 458 ACK
+numDupes: 100
+RECV 999 458 ACK
+numDupes: 101
+RECV 999 458 ACK
+numDupes: 102
+RECV 999 458 ACK
+numDupes: 103
+RECV 999 458 ACK
+numDupes: 104
+RECV 999 458 ACK
+numDupes: 105
+RECV 999 458 ACK
+numDupes: 106
+RECV 999 458 ACK
+numDupes: 107
+RECV 999 458 ACK
+numDupes: 108
+RECV 999 458 ACK
+numDupes: 109
+RECV 999 458 ACK
+numDupes: 110
+RECV 999 458 ACK
+numDupes: 111
+RECV 999 458 ACK
+numDupes: 112
+RECV 999 458 ACK
+numDupes: 113
+RECV 999 458 ACK
+numDupes: 114
+RECV 999 458 ACK
+numDupes: 115
+RECV 999 458 ACK
+numDupes: 116
+RECV 999 458 ACK
+numDupes: 117
+RECV 999 458 ACK
+numDupes: 118
+RECV 999 458 ACK
+numDupes: 119
+RECV 999 458 ACK
+numDupes: 120
+RECV 999 458 ACK
+numDupes: 121
+RECV 999 458 ACK
+numDupes: 122
+RECV 999 458 ACK
+numDupes: 123
+RECV 999 458 ACK
+numDupes: 124
+RECV 999 458 ACK
+numDupes: 125
+RECV 999 458 ACK
+numDupes: 126
+RECV 999 458 ACK
+numDupes: 127
+RECV 999 458 ACK
+numDupes: 128
+RECV 999 458 ACK
+numDupes: 129
+RECV 999 458 ACK
+numDupes: 130
+RECV 999 458 ACK
+numDupes: 131
+RECV 999 458 ACK
+numDupes: 132
+RECV 999 458 ACK
+numDupes: 133
+RECV 999 458 ACK
+numDupes: 134
+RECV 999 458 ACK
+numDupes: 135
+RECV 999 458 ACK
+numDupes: 136
+RECV 999 458 ACK
+numDupes: 137
+RECV 999 458 ACK
+numDupes: 138
+RECV 999 458 ACK
+numDupes: 139
+RECV 999 458 ACK
+numDupes: 140
+RECV 999 458 ACK
+numDupes: 141
+RECV 999 458 ACK
+numDupes: 142
+RECV 999 458 ACK
+numDupes: 143
+RECV 999 458 ACK
+numDupes: 144
+RECV 999 458 ACK
+numDupes: 145
+RECV 999 458 ACK
+numDupes: 146
+RECV 999 458 ACK
+numDupes: 147
+RECV 999 458 ACK
+numDupes: 148
+RECV 999 458 ACK
+numDupes: 149
+RECV 999 458 ACK
+numDupes: 150
+RECV 999 458 ACK
+numDupes: 151
+RECV 999 458 ACK
+numDupes: 152
+RECV 999 458 ACK
+numDupes: 153
+RECV 999 458 ACK
+numDupes: 154
+RECV 999 458 ACK
+numDupes: 155
+RECV 999 458 ACK
+numDupes: 156
+RECV 999 458 ACK
+numDupes: 157
+RECV 999 458 ACK
+numDupes: 158
+RECV 999 458 ACK
+numDupes: 159
+RECV 999 458 ACK
+numDupes: 160
+RECV 999 458 ACK
+numDupes: 161
+RECV 999 458 ACK
+numDupes: 162
+RECV 999 458 ACK
+numDupes: 163
+RECV 999 458 ACK
+numDupes: 164
+RECV 999 458 ACK
+numDupes: 165
+RECV 999 458 ACK
+numDupes: 166
+RECV 999 458 ACK
+numDupes: 167
+RECV 999 458 ACK
+numDupes: 168
+RECV 999 458 ACK
+numDupes: 169
+RECV 999 458 ACK
+numDupes: 170
+RECV 999 458 ACK
+numDupes: 171
+RECV 999 458 ACK
+numDupes: 172
+RECV 999 458 ACK
+numDupes: 173
+RECV 999 458 ACK
+numDupes: 174
+RECV 999 458 ACK
+numDupes: 175
+RECV 999 458 ACK
+numDupes: 176
+RECV 999 458 ACK
+numDupes: 177
+RECV 999 458 ACK
+numDupes: 178
+RECV 999 458 ACK
+numDupes: 179
+RECV 999 458 ACK
+numDupes: 180
+RECV 999 458 ACK
+numDupes: 181
+RECV 999 458 ACK
+numDupes: 182
+RECV 999 458 ACK
+numDupes: 183
+RECV 999 458 ACK
+numDupes: 184
+RECV 999 458 ACK
+numDupes: 185
+RECV 999 458 ACK
+numDupes: 186
+RECV 999 458 ACK
+numDupes: 187
+RECV 999 458 ACK
+numDupes: 188
+RECV 999 458 ACK
+numDupes: 189
+RECV 999 458 ACK
+numDupes: 190
+RECV 999 458 ACK
+numDupes: 191
+RECV 999 458 ACK
+numDupes: 192
+RECV 999 458 ACK
+numDupes: 193
+RECV 999 458 ACK
+numDupes: 194
+RECV 999 458 ACK
+numDupes: 195
+RECV 999 458 ACK
+numDupes: 196
+RECV 999 458 ACK
+numDupes: 197
+RECV 999 458 ACK
+numDupes: 198
+RECV 999 458 ACK
+numDupes: 199
+RECV 999 458 ACK
+numDupes: 200
+RECV 999 458 ACK
+numDupes: 201
+RECV 999 458 ACK
+numDupes: 202
+RECV 999 458 ACK
+numDupes: 203
+RECV 999 458 ACK
+numDupes: 204
+RECV 999 458 ACK
+numDupes: 205
+RECV 999 458 ACK
+numDupes: 206
+RECV 999 458 ACK
+numDupes: 207
+RECV 999 458 ACK
+numDupes: 208
+RECV 999 458 ACK
+numDupes: 209
+RECV 999 458 ACK
+numDupes: 210
+RECV 999 458 ACK
+numDupes: 211
+RECV 999 458 ACK
+numDupes: 212
+RECV 999 458 ACK
+numDupes: 213
+RECV 999 458 ACK
+numDupes: 214
+RECV 999 458 ACK
+numDupes: 215
+RECV 999 458 ACK
+numDupes: 216
+RECV 999 458 ACK
+numDupes: 217
+RECV 999 458 ACK
+numDupes: 218
+RECV 999 458 ACK
+numDupes: 219
+RECV 999 494 ACK
+sending packet: 661
+sending packet: 662
+sending packet: 663
+sending packet: 664
+sending packet: 665
+sending packet: 666
+sending packet: 667
+sending packet: 668
+sending packet: 669
+sending packet: 670
+sending packet: 671
+sending packet: 672
+sending packet: 673
+sending packet: 674
+sending packet: 675
+sending packet: 676
+sending packet: 677
+sending packet: 678
+sending packet: 679
+sending packet: 680
+sending packet: 681
+sending packet: 682
+sending packet: 683
+sending packet: 684
+sending packet: 685
+sending packet: 686
+sending packet: 687
+sending packet: 688
+sending packet: 689
+sending packet: 690
+sending packet: 691
+sending packet: 692
+sending packet: 693
+sending packet: 694
+sending packet: 695
+sending packet: 696
+sending packet: 697
+RECV 999 494 ACK
+sending packet: 678
+sending packet: 679
+sending packet: 680
+sending packet: 681
+sending packet: 682
+sending packet: 683
+sending packet: 684
+sending packet: 685
+sending packet: 686
+sending packet: 687
+sending packet: 688
+sending packet: 689
+sending packet: 690
+sending packet: 691
+sending packet: 692
+sending packet: 693
+sending packet: 694
+sending packet: 695
+sending packet: 696
+sending packet: 697
+sending packet: 698
+RECV 999 494 ACK
+numDupes: 1
+RECV 999 494 ACK
+numDupes: 2
+RECV 999 494 ACK
+numDupes: 3
+fast retransmit: 494
+RECV 999 494 ACK
+numDupes: 4
+RECV 999 494 ACK
+numDupes: 5
+RECV 999 494 ACK
+numDupes: 6
+RECV 999 494 ACK
+numDupes: 7
+RECV 999 494 ACK
+numDupes: 8
+RECV 999 494 ACK
+numDupes: 9
+RECV 999 494 ACK
+numDupes: 10
+RECV 999 494 ACK
+numDupes: 11
+RECV 999 494 ACK
+numDupes: 12
+RECV 999 494 ACK
+numDupes: 13
+RECV 999 494 ACK
+numDupes: 14
+RECV 999 494 ACK
+numDupes: 15
+RECV 999 494 ACK
+numDupes: 16
+RECV 999 494 ACK
+numDupes: 17
+RECV 999 494 ACK
+numDupes: 18
+RECV 999 494 ACK
+numDupes: 19
+RECV 999 494 ACK
+numDupes: 20
+RECV 999 494 ACK
+numDupes: 21
+RECV 999 494 ACK
+numDupes: 22
+RECV 999 494 ACK
+numDupes: 23
+RECV 999 494 ACK
+numDupes: 24
+RECV 999 494 ACK
+numDupes: 25
+RECV 999 494 ACK
+numDupes: 26
+RECV 999 494 ACK
+numDupes: 27
+RECV 999 494 ACK
+numDupes: 28
+RECV 999 494 ACK
+numDupes: 29
+RECV 999 494 ACK
+numDupes: 30
+RECV 999 494 ACK
+numDupes: 31
+RECV 999 494 ACK
+numDupes: 32
+RECV 999 494 ACK
+numDupes: 33
+RECV 999 494 ACK
+numDupes: 34
+RECV 999 494 ACK
+numDupes: 35
+RECV 999 494 ACK
+numDupes: 36
+RECV 999 494 ACK
+numDupes: 37
+RECV 999 494 ACK
+numDupes: 38
+RECV 999 494 ACK
+numDupes: 39
+RECV 999 494 ACK
+numDupes: 40
+RECV 999 494 ACK
+numDupes: 41
+RECV 999 494 ACK
+numDupes: 42
+RECV 999 494 ACK
+numDupes: 43
+RECV 999 494 ACK
+numDupes: 44
+RECV 999 494 ACK
+numDupes: 45
+RECV 999 494 ACK
+numDupes: 46
+RECV 999 494 ACK
+numDupes: 47
+RECV 999 494 ACK
+numDupes: 48
+RECV 999 494 ACK
+numDupes: 49
+RECV 999 494 ACK
+numDupes: 50
+RECV 999 494 ACK
+numDupes: 51
+RECV 999 494 ACK
+numDupes: 52
+RECV 999 494 ACK
+numDupes: 53
+RECV 999 494 ACK
+numDupes: 54
+RECV 999 494 ACK
+numDupes: 55
+RECV 999 494 ACK
+numDupes: 56
+RECV 999 662 ACK
+sending packet: 699
+sending packet: 700
+sending packet: 701
+sending packet: 702
+sending packet: 703
+sending packet: 704
+sending packet: 705
+sending packet: 706
+sending packet: 707
+sending packet: 708
+sending packet: 709
+sending packet: 710
+sending packet: 711
+sending packet: 712
+sending packet: 713
+sending packet: 714
+sending packet: 715
+sending packet: 716
+sending packet: 717
+sending packet: 718
+sending packet: 719
+sending packet: 720
+sending packet: 721
+sending packet: 722
+sending packet: 723
+sending packet: 724
+sending packet: 725
+sending packet: 726
+sending packet: 727
+sending packet: 728
+sending packet: 729
+sending packet: 730
+sending packet: 731
+sending packet: 732
+sending packet: 733
+sending packet: 734
+sending packet: 735
+sending packet: 736
+sending packet: 737
+sending packet: 738
+sending packet: 739
+sending packet: 740
+sending packet: 741
+sending packet: 742
+sending packet: 743
+sending packet: 744
+sending packet: 745
+sending packet: 746
+sending packet: 747
+sending packet: 748
+sending packet: 749
+sending packet: 750
+sending packet: 751
+sending packet: 752
+sending packet: 753
+sending packet: 754
+sending packet: 755
+sending packet: 756
+sending packet: 757
+sending packet: 758
+sending packet: 759
+sending packet: 760
+sending packet: 761
+sending packet: 762
+sending packet: 763
+sending packet: 764
+sending packet: 765
+sending packet: 766
+sending packet: 767
+sending packet: 768
+sending packet: 769
+sending packet: 770
+sending packet: 771
+sending packet: 772
+sending packet: 773
+sending packet: 774
+sending packet: 775
+sending packet: 776
+sending packet: 777
+sending packet: 778
+sending packet: 779
+sending packet: 780
+sending packet: 781
+sending packet: 782
+sending packet: 783
+sending packet: 784
+sending packet: 785
+sending packet: 786
+sending packet: 787
+sending packet: 788
+sending packet: 789
+sending packet: 790
+sending packet: 791
+sending packet: 792
+sending packet: 793
+sending packet: 794
+sending packet: 795
+sending packet: 796
+sending packet: 797
+sending packet: 798
+sending packet: 799
+sending packet: 800
+sending packet: 801
+sending packet: 802
+sending packet: 803
+sending packet: 804
+sending packet: 805
+sending packet: 806
+sending packet: 807
+sending packet: 808
+sending packet: 809
+sending packet: 810
+sending packet: 811
+sending packet: 812
+sending packet: 813
+sending packet: 814
+sending packet: 815
+sending packet: 816
+sending packet: 817
+sending packet: 818
+sending packet: 819
+sending packet: 820
+sending packet: 821
+sending packet: 822
+sending packet: 823
+sending packet: 824
+sending packet: 825
+sending packet: 826
+sending packet: 827
+sending packet: 828
+sending packet: 829
+sending packet: 830
+sending packet: 831
+sending packet: 832
+sending packet: 833
+sending packet: 834
+sending packet: 835
+sending packet: 836
+sending packet: 837
+sending packet: 838
+sending packet: 839
+sending packet: 840
+sending packet: 841
+sending packet: 842
+sending packet: 843
+sending packet: 844
+sending packet: 845
+sending packet: 846
+sending packet: 847
+sending packet: 848
+sending packet: 849
+sending packet: 850
+sending packet: 851
+sending packet: 852
+sending packet: 853
+sending packet: 854
+sending packet: 855
+sending packet: 856
+sending packet: 857
+sending packet: 858
+sending packet: 859
+sending packet: 860
+sending packet: 861
+sending packet: 862
+sending packet: 863
+sending packet: 864
+sending packet: 865
+sending packet: 866
+sending packet: 867
+RECV 999 662 ACK
+numDupes: 1
+RECV 999 662 ACK
+numDupes: 2
+RECV 999 662 ACK
+numDupes: 3
+fast retransmit: 662
+RECV 999 662 ACK
+numDupes: 4
+RECV 999 662 ACK
+numDupes: 5
+RECV 999 662 ACK
+numDupes: 6
+RECV 999 662 ACK
+numDupes: 7
+RECV 999 662 ACK
+numDupes: 8
+RECV 999 662 ACK
+numDupes: 9
+RECV 999 662 ACK
+numDupes: 10
+RECV 999 662 ACK
+numDupes: 11
+RECV 999 662 ACK
+numDupes: 12
+RECV 999 662 ACK
+numDupes: 13
+RECV 999 662 ACK
+numDupes: 14
+RECV 999 662 ACK
+numDupes: 15
+RECV 999 662 ACK
+numDupes: 16
+RECV 999 662 ACK
+numDupes: 17
+RECV 999 662 ACK
+numDupes: 18
+RECV 999 662 ACK
+numDupes: 19
+RECV 999 662 ACK
+numDupes: 20
+RECV 999 662 ACK
+numDupes: 21
+RECV 999 662 ACK
+numDupes: 22
+RECV 999 662 ACK
+numDupes: 23
+RECV 999 662 ACK
+numDupes: 24
+RECV 999 662 ACK
+numDupes: 25
+RECV 999 662 ACK
+numDupes: 26
+RECV 999 662 ACK
+numDupes: 27
+RECV 999 662 ACK
+numDupes: 28
+RECV 999 662 ACK
+numDupes: 29
+RECV 999 662 ACK
+numDupes: 30
+RECV 999 662 ACK
+numDupes: 31
+RECV 999 662 ACK
+numDupes: 32
+RECV 999 662 ACK
+numDupes: 33
+RECV 999 662 ACK
+numDupes: 34
+RECV 999 662 ACK
+numDupes: 35
+RECV 999 662 ACK
+numDupes: 36
+RECV 999 662 ACK
+numDupes: 37
+RECV 999 662 ACK
+numDupes: 38
+RECV 999 662 ACK
+numDupes: 39
+RECV 999 662 ACK
+numDupes: 40
+RECV 999 662 ACK
+numDupes: 41
+RECV 999 662 ACK
+numDupes: 42
+RECV 999 662 ACK
+numDupes: 43
+RECV 999 662 ACK
+numDupes: 44
+RECV 999 662 ACK
+numDupes: 45
+RECV 999 662 ACK
+numDupes: 46
+RECV 999 662 ACK
+numDupes: 47
+RECV 999 662 ACK
+numDupes: 48
+RECV 999 662 ACK
+numDupes: 49
+RECV 999 662 ACK
+numDupes: 50
+RECV 999 662 ACK
+numDupes: 51
+RECV 999 662 ACK
+numDupes: 52
+RECV 999 662 ACK
+numDupes: 53
+RECV 999 662 ACK
+numDupes: 54
+RECV 999 662 ACK
+numDupes: 55
+RECV 999 662 ACK
+numDupes: 56
+RECV 999 662 ACK
+numDupes: 57
+RECV 999 662 ACK
+numDupes: 58
+RECV 999 662 ACK
+numDupes: 59
+RECV 999 662 ACK
+numDupes: 60
+RECV 999 662 ACK
+numDupes: 61
+RECV 999 662 ACK
+numDupes: 62
+RECV 999 662 ACK
+numDupes: 63
+RECV 999 662 ACK
+numDupes: 64
+RECV 999 662 ACK
+numDupes: 65
+RECV 999 662 ACK
+numDupes: 66
+RECV 999 662 ACK
+numDupes: 67
+RECV 999 662 ACK
+numDupes: 68
+RECV 999 662 ACK
+numDupes: 69
+RECV 999 662 ACK
+numDupes: 70
+RECV 999 662 ACK
+numDupes: 71
+RECV 999 662 ACK
+numDupes: 72
+RECV 999 662 ACK
+numDupes: 73
+RECV 999 662 ACK
+numDupes: 74
+RECV 999 662 ACK
+numDupes: 75
+RECV 999 662 ACK
+numDupes: 76
+RECV 999 662 ACK
+numDupes: 77
+RECV 999 662 ACK
+numDupes: 78
+RECV 999 662 ACK
+numDupes: 79
+RECV 999 662 ACK
+numDupes: 80
+RECV 999 662 ACK
+numDupes: 81
+RECV 999 662 ACK
+numDupes: 82
+RECV 999 662 ACK
+numDupes: 83
+RECV 999 662 ACK
+numDupes: 84
+RECV 999 662 ACK
+numDupes: 85
+RECV 999 662 ACK
+numDupes: 86
+RECV 999 662 ACK
+numDupes: 87
+RECV 999 662 ACK
+numDupes: 88
+RECV 999 662 ACK
+numDupes: 89
+RECV 999 662 ACK
+numDupes: 90
+RECV 999 662 ACK
+numDupes: 91
+RECV 999 662 ACK
+numDupes: 92
+RECV 999 662 ACK
+numDupes: 93
+RECV 999 662 ACK
+numDupes: 94
+RECV 999 662 ACK
+numDupes: 95
+RECV 999 662 ACK
+numDupes: 96
+RECV 999 662 ACK
+numDupes: 97
+RECV 999 662 ACK
+numDupes: 98
+RECV 999 662 ACK
+numDupes: 99
+RECV 999 662 ACK
+numDupes: 100
+RECV 999 662 ACK
+numDupes: 101
+RECV 999 662 ACK
+numDupes: 102
+RECV 999 662 ACK
+numDupes: 103
+RECV 999 662 ACK
+numDupes: 104
+RECV 999 662 ACK
+numDupes: 105
+RECV 999 662 ACK
+numDupes: 106
+RECV 999 662 ACK
+numDupes: 107
+RECV 999 662 ACK
+numDupes: 108
+RECV 999 662 ACK
+numDupes: 109
+RECV 999 662 ACK
+numDupes: 110
+RECV 999 662 ACK
+numDupes: 111
+RECV 999 662 ACK
+numDupes: 112
+RECV 999 662 ACK
+numDupes: 113
+RECV 999 662 ACK
+numDupes: 114
+RECV 999 662 ACK
+numDupes: 115
+RECV 999 662 ACK
+numDupes: 116
+RECV 999 662 ACK
+numDupes: 117
+RECV 999 662 ACK
+numDupes: 118
+RECV 999 662 ACK
+numDupes: 119
+RECV 999 662 ACK
+numDupes: 120
+RECV 999 662 ACK
+numDupes: 121
+RECV 999 662 ACK
+numDupes: 122
+RECV 999 662 ACK
+numDupes: 123
+RECV 999 662 ACK
+numDupes: 124
+RECV 999 662 ACK
+numDupes: 125
+RECV 999 662 ACK
+numDupes: 126
+RECV 999 662 ACK
+numDupes: 127
+RECV 999 662 ACK
+numDupes: 128
+RECV 999 662 ACK
+numDupes: 129
+RECV 999 662 ACK
+numDupes: 130
+RECV 999 662 ACK
+numDupes: 131
+RECV 999 662 ACK
+numDupes: 132
+RECV 999 662 ACK
+numDupes: 133
+RECV 999 662 ACK
+numDupes: 134
+RECV 999 662 ACK
+numDupes: 135
+RECV 999 662 ACK
+numDupes: 136
+RECV 999 662 ACK
+numDupes: 137
+RECV 999 662 ACK
+numDupes: 138
+RECV 999 662 ACK
+numDupes: 139
+RECV 999 662 ACK
+numDupes: 140
+RECV 999 662 ACK
+numDupes: 141
+RECV 999 662 ACK
+numDupes: 142
+RECV 999 662 ACK
+numDupes: 143
+RECV 999 662 ACK
+numDupes: 144
+RECV 999 662 ACK
+numDupes: 145
+RECV 999 662 ACK
+numDupes: 146
+RECV 999 662 ACK
+numDupes: 147
+RECV 999 662 ACK
+numDupes: 148
+RECV 999 662 ACK
+numDupes: 149
+RECV 999 662 ACK
+numDupes: 150
+RECV 999 662 ACK
+numDupes: 151
+RECV 999 662 ACK
+numDupes: 152
+RECV 999 662 ACK
+numDupes: 153
+RECV 999 662 ACK
+numDupes: 154
+RECV 999 662 ACK
+numDupes: 155
+RECV 999 662 ACK
+numDupes: 156
+RECV 999 662 ACK
+numDupes: 157
+RECV 999 662 ACK
+numDupes: 158
+RECV 999 662 ACK
+numDupes: 159
+RECV 999 662 ACK
+numDupes: 160
+RECV 999 662 ACK
+numDupes: 161
+RECV 999 662 ACK
+numDupes: 162
+RECV 999 662 ACK
+numDupes: 163
+RECV 999 662 ACK
+numDupes: 164
+RECV 999 662 ACK
+numDupes: 165
+RECV 999 780 ACK
+sending packet: 868
+sending packet: 869
+sending packet: 870
+sending packet: 871
+sending packet: 872
+sending packet: 873
+sending packet: 874
+sending packet: 875
+sending packet: 876
+sending packet: 877
+sending packet: 878
+sending packet: 879
+sending packet: 880
+sending packet: 881
+sending packet: 882
+sending packet: 883
+sending packet: 884
+sending packet: 885
+sending packet: 886
+sending packet: 887
+sending packet: 888
+sending packet: 889
+sending packet: 890
+sending packet: 891
+sending packet: 892
+sending packet: 893
+sending packet: 894
+sending packet: 895
+sending packet: 896
+sending packet: 897
+sending packet: 898
+sending packet: 899
+sending packet: 900
+sending packet: 901
+sending packet: 902
+sending packet: 903
+sending packet: 904
+sending packet: 905
+sending packet: 906
+sending packet: 907
+sending packet: 908
+sending packet: 909
+sending packet: 910
+sending packet: 911
+sending packet: 912
+sending packet: 913
+sending packet: 914
+sending packet: 915
+sending packet: 916
+sending packet: 917
+sending packet: 918
+sending packet: 919
+sending packet: 920
+sending packet: 921
+sending packet: 922
+sending packet: 923
+sending packet: 924
+sending packet: 925
+sending packet: 926
+sending packet: 927
+sending packet: 928
+sending packet: 929
+sending packet: 930
+sending packet: 931
+sending packet: 932
+sending packet: 933
+sending packet: 934
+sending packet: 935
+sending packet: 936
+sending packet: 937
+sending packet: 938
+sending packet: 939
+sending packet: 940
+sending packet: 941
+sending packet: 942
+sending packet: 943
+sending packet: 944
+sending packet: 945
+sending packet: 946
+sending packet: 947
+sending packet: 948
+sending packet: 949
+sending packet: 950
+sending packet: 951
+sending packet: 952
+sending packet: 953
+sending packet: 954
+sending packet: 955
+sending packet: 956
+sending packet: 957
+sending packet: 958
+sending packet: 959
+sending packet: 960
+sending packet: 961
+sending packet: 962
+sending packet: 963
+sending packet: 964
+sending packet: 965
+sending packet: 966
+sending packet: 967
+sending packet: 968
+sending packet: 969
+sending packet: 970
+sending packet: 971
+sending packet: 972
+sending packet: 973
+sending packet: 974
+sending packet: 975
+sending packet: 976
+sending packet: 977
+sending packet: 978
+sending packet: 979
+sending packet: 980
+sending packet: 981
+sending packet: 982
+sending packet: 983
+sending packet: 984
+sending packet: 985
+sending packet: 986
+RECV 999 780 ACK
+sending packet: 967
+sending packet: 968
+sending packet: 969
+sending packet: 970
+sending packet: 971
+sending packet: 972
+sending packet: 973
+sending packet: 974
+sending packet: 975
+sending packet: 976
+sending packet: 977
+sending packet: 978
+sending packet: 979
+sending packet: 980
+sending packet: 981
+sending packet: 982
+sending packet: 983
+sending packet: 984
+sending packet: 985
+sending packet: 986
+sending packet: 987
+RECV 999 780 ACK
+numDupes: 1
+RECV 999 780 ACK
+numDupes: 2
+RECV 999 780 ACK
+numDupes: 3
+fast retransmit: 780
+RECV 999 780 ACK
+numDupes: 4
+RECV 999 780 ACK
+numDupes: 5
+RECV 999 780 ACK
+numDupes: 6
+RECV 999 780 ACK
+numDupes: 7
+RECV 999 780 ACK
+numDupes: 8
+RECV 999 780 ACK
+numDupes: 9
+RECV 999 780 ACK
+numDupes: 10
+RECV 999 780 ACK
+numDupes: 11
+RECV 999 780 ACK
+numDupes: 12
+RECV 999 780 ACK
+numDupes: 13
+RECV 999 780 ACK
+numDupes: 14
+RECV 999 780 ACK
+numDupes: 15
+RECV 999 780 ACK
+numDupes: 16
+RECV 999 780 ACK
+numDupes: 17
+RECV 999 780 ACK
+numDupes: 18
+RECV 999 780 ACK
+numDupes: 19
+RECV 999 780 ACK
+numDupes: 20
+RECV 999 780 ACK
+numDupes: 21
+RECV 999 780 ACK
+numDupes: 22
+RECV 999 780 ACK
+numDupes: 23
+RECV 999 780 ACK
+numDupes: 24
+RECV 999 780 ACK
+numDupes: 25
+RECV 999 780 ACK
+numDupes: 26
+RECV 999 780 ACK
+numDupes: 27
+RECV 999 780 ACK
+numDupes: 28
+RECV 999 780 ACK
+numDupes: 29
+RECV 999 780 ACK
+numDupes: 30
+RECV 999 780 ACK
+numDupes: 31
+RECV 999 780 ACK
+numDupes: 32
+RECV 999 780 ACK
+numDupes: 33
+RECV 999 780 ACK
+numDupes: 34
+RECV 999 780 ACK
+numDupes: 35
+RECV 999 780 ACK
+numDupes: 36
+RECV 999 780 ACK
+numDupes: 37
+RECV 999 780 ACK
+numDupes: 38
+RECV 999 780 ACK
+numDupes: 39
+RECV 999 780 ACK
+numDupes: 40
+RECV 999 780 ACK
+numDupes: 41
+RECV 999 780 ACK
+numDupes: 42
+RECV 999 780 ACK
+numDupes: 43
+RECV 999 780 ACK
+numDupes: 44
+RECV 999 780 ACK
+numDupes: 45
+RECV 999 780 ACK
+numDupes: 46
+RECV 999 780 ACK
+numDupes: 47
+RECV 999 780 ACK
+numDupes: 48
+RECV 999 780 ACK
+numDupes: 49
+RECV 999 780 ACK
+numDupes: 50
+RECV 999 780 ACK
+numDupes: 51
+RECV 999 780 ACK
+numDupes: 52
+RECV 999 780 ACK
+numDupes: 53
+RECV 999 780 ACK
+numDupes: 54
+RECV 999 780 ACK
+numDupes: 55
+RECV 999 780 ACK
+numDupes: 56
+RECV 999 780 ACK
+numDupes: 57
+RECV 999 780 ACK
+numDupes: 58
+RECV 999 780 ACK
+numDupes: 59
+RECV 999 780 ACK
+numDupes: 60
+RECV 999 780 ACK
+numDupes: 61
+RECV 999 780 ACK
+numDupes: 62
+RECV 999 780 ACK
+numDupes: 63
+RECV 999 780 ACK
+numDupes: 64
+RECV 999 780 ACK
+numDupes: 65
+RECV 999 780 ACK
+numDupes: 66
+RECV 999 780 ACK
+numDupes: 67
+RECV 999 780 ACK
+numDupes: 68
+RECV 999 780 ACK
+numDupes: 69
+RECV 999 780 ACK
+numDupes: 70
+RECV 999 780 ACK
+numDupes: 71
+RECV 999 780 ACK
+numDupes: 72
+RECV 999 780 ACK
+numDupes: 73
+RECV 999 780 ACK
+numDupes: 74
+RECV 999 780 ACK
+numDupes: 75
+RECV 999 780 ACK
+numDupes: 76
+RECV 999 780 ACK
+numDupes: 77
+RECV 999 780 ACK
+numDupes: 78
+RECV 999 780 ACK
+numDupes: 79
+RECV 999 780 ACK
+numDupes: 80
+RECV 999 780 ACK
+numDupes: 81
+RECV 999 780 ACK
+numDupes: 82
+RECV 999 780 ACK
+numDupes: 83
+RECV 999 780 ACK
+numDupes: 84
+RECV 999 780 ACK
+numDupes: 85
+RECV 999 780 ACK
+numDupes: 86
+RECV 999 780 ACK
+numDupes: 87
+RECV 999 780 ACK
+numDupes: 88
+RECV 999 780 ACK
+numDupes: 89
+RECV 999 780 ACK
+numDupes: 90
+RECV 999 780 ACK
+numDupes: 91
+RECV 999 780 ACK
+numDupes: 92
+RECV 999 780 ACK
+numDupes: 93
+RECV 999 780 ACK
+numDupes: 94
+RECV 999 780 ACK
+numDupes: 95
+RECV 999 780 ACK
+numDupes: 96
+RECV 999 780 ACK
+numDupes: 97
+RECV 999 780 ACK
+numDupes: 98
+RECV 999 780 ACK
+numDupes: 99
+RECV 999 780 ACK
+numDupes: 100
+RECV 999 780 ACK
+numDupes: 101
+RECV 999 780 ACK
+numDupes: 102
+RECV 999 780 ACK
+numDupes: 103
+RECV 999 780 ACK
+numDupes: 104
+RECV 999 780 ACK
+numDupes: 105
+RECV 999 780 ACK
+numDupes: 106
+RECV 999 780 ACK
+numDupes: 107
+RECV 999 780 ACK
+numDupes: 108
+RECV 999 780 ACK
+numDupes: 109
+RECV 999 780 ACK
+numDupes: 110
+RECV 999 780 ACK
+numDupes: 111
+RECV 999 780 ACK
+numDupes: 112
+RECV 999 780 ACK
+numDupes: 113
+RECV 999 780 ACK
+numDupes: 114
+RECV 999 780 ACK
+numDupes: 115
+RECV 999 780 ACK
+numDupes: 116
+RECV 999 780 ACK
+numDupes: 117
+RECV 999 780 ACK
+numDupes: 118
+RECV 999 780 ACK
+numDupes: 119
+RECV 999 780 ACK
+numDupes: 120
+RECV 999 780 ACK
+numDupes: 121
+RECV 999 780 ACK
+numDupes: 122
+RECV 999 780 ACK
+numDupes: 123
+RECV 999 780 ACK
+numDupes: 124
+RECV 999 780 ACK
+numDupes: 125
+RECV 999 780 ACK
+numDupes: 126
+RECV 999 780 ACK
+numDupes: 127
+RECV 999 780 ACK
+numDupes: 128
+RECV 999 780 ACK
+numDupes: 129
+RECV 999 780 ACK
+numDupes: 130
+RECV 999 780 ACK
+numDupes: 131
+RECV 999 780 ACK
+numDupes: 132
+RECV 999 780 ACK
+numDupes: 133
+RECV 999 780 ACK
+numDupes: 134
+RECV 999 780 ACK
+numDupes: 135
+RECV 999 780 ACK
+numDupes: 136
+RECV 999 863 ACK
+sending packet: 988
+sending packet: 989
+sending packet: 990
+sending packet: 991
+sending packet: 992
+sending packet: 993
+sending packet: 994
+sending packet: 995
+sending packet: 996
+sending packet: 997
+sending packet: 998
+sending packet: 999
+sending packet: 1000
+sending packet: 1001
+sending packet: 1002
+sending packet: 1003
+sending packet: 1004
+sending packet: 1005
+sending packet: 1006
+sending packet: 1007
+sending packet: 1008
+sending packet: 1009
+sending packet: 1010
+sending packet: 1011
+sending packet: 1012
+sending packet: 1013
+sending packet: 1014
+sending packet: 1015
+sending packet: 1016
+sending packet: 1017
+sending packet: 1018
+sending packet: 1019
+sending packet: 1020
+sending packet: 1021
+sending packet: 1022
+sending packet: 1023
+sending packet: 1024
+sending packet: 1025
+sending packet: 1026
+sending packet: 1027
+sending packet: 1028
+sending packet: 1029
+sending packet: 1030
+sending packet: 1031
+sending packet: 1032
+sending packet: 1033
+sending packet: 1034
+sending packet: 1035
+sending packet: 1036
+sending packet: 1037
+sending packet: 1038
+sending packet: 1039
+sending packet: 1040
+sending packet: 1041
+sending packet: 1042
+sending packet: 1043
+sending packet: 1044
+sending packet: 1045
+sending packet: 1046
+sending packet: 1047
+sending packet: 1048
+sending packet: 1049
+sending packet: 1050
+sending packet: 1051
+sending packet: 1052
+sending packet: 1053
+sending packet: 1054
+sending packet: 1055
+sending packet: 1056
+sending packet: 1057
+sending packet: 1058
+sending packet: 1059
+sending packet: 1060
+sending packet: 1061
+sending packet: 1062
+sending packet: 1063
+sending packet: 1064
+sending packet: 1065
+sending packet: 1066
+sending packet: 1067
+sending packet: 1068
+sending packet: 1069
+sending packet: 1070
+sending packet: 1071
+RECV 999 863 ACK
+numDupes: 1
+RECV 999 863 ACK
+numDupes: 2
+RECV 999 863 ACK
+numDupes: 3
+fast retransmit: 863
+RECV 999 863 ACK
+numDupes: 4
+RECV 999 863 ACK
+numDupes: 5
+RECV 999 863 ACK
+numDupes: 6
+RECV 999 863 ACK
+numDupes: 7
+RECV 999 863 ACK
+numDupes: 8
+RECV 999 863 ACK
+numDupes: 9
+RECV 999 863 ACK
+numDupes: 10
+RECV 999 863 ACK
+numDupes: 11
+RECV 999 863 ACK
+numDupes: 12
+RECV 999 863 ACK
+numDupes: 13
+RECV 999 863 ACK
+numDupes: 14
+RECV 999 863 ACK
+numDupes: 15
+RECV 999 863 ACK
+numDupes: 16
+RECV 999 863 ACK
+numDupes: 17
+RECV 999 863 ACK
+numDupes: 18
+RECV 999 863 ACK
+numDupes: 19
+RECV 999 863 ACK
+numDupes: 20
+RECV 999 863 ACK
+numDupes: 21
+RECV 999 863 ACK
+numDupes: 22
+RECV 999 863 ACK
+numDupes: 23
+RECV 999 863 ACK
+numDupes: 24
+RECV 999 863 ACK
+numDupes: 25
+RECV 999 863 ACK
+numDupes: 26
+RECV 999 863 ACK
+numDupes: 27
+RECV 999 863 ACK
+numDupes: 28
+RECV 999 863 ACK
+numDupes: 29
+RECV 999 863 ACK
+numDupes: 30
+RECV 999 863 ACK
+numDupes: 31
+RECV 999 863 ACK
+numDupes: 32
+RECV 999 863 ACK
+numDupes: 33
+RECV 999 863 ACK
+numDupes: 34
+RECV 999 863 ACK
+numDupes: 35
+RECV 999 863 ACK
+numDupes: 36
+RECV 999 863 ACK
+numDupes: 37
+RECV 999 863 ACK
+numDupes: 38
+RECV 999 863 ACK
+numDupes: 39
+RECV 999 863 ACK
+numDupes: 40
+RECV 999 863 ACK
+numDupes: 41
+RECV 999 863 ACK
+numDupes: 42
+RECV 999 863 ACK
+numDupes: 43
+RECV 999 863 ACK
+numDupes: 44
+RECV 999 863 ACK
+numDupes: 45
+RECV 999 863 ACK
+numDupes: 46
+RECV 999 863 ACK
+numDupes: 47
+RECV 999 863 ACK
+numDupes: 48
+RECV 999 863 ACK
+numDupes: 49
+RECV 999 863 ACK
+numDupes: 50
+RECV 999 863 ACK
+numDupes: 51
+RECV 999 863 ACK
+numDupes: 52
+RECV 999 863 ACK
+numDupes: 53
+RECV 999 863 ACK
+numDupes: 54
+RECV 999 863 ACK
+numDupes: 55
+RECV 999 863 ACK
+numDupes: 56
+RECV 999 863 ACK
+numDupes: 57
+RECV 999 863 ACK
+numDupes: 58
+RECV 999 863 ACK
+numDupes: 59
+RECV 999 863 ACK
+numDupes: 60
+RECV 999 863 ACK
+numDupes: 61
+RECV 999 863 ACK
+numDupes: 62
+RECV 999 863 ACK
+numDupes: 63
+RECV 999 863 ACK
+numDupes: 64
+RECV 999 863 ACK
+numDupes: 65
+RECV 999 863 ACK
+numDupes: 66
+RECV 999 863 ACK
+numDupes: 67
+RECV 999 863 ACK
+numDupes: 68
+RECV 999 863 ACK
+numDupes: 69
+RECV 999 863 ACK
+numDupes: 70
+RECV 999 863 ACK
+numDupes: 71
+RECV 999 863 ACK
+numDupes: 72
+RECV 999 863 ACK
+numDupes: 73
+RECV 999 863 ACK
+numDupes: 74
+RECV 999 863 ACK
+numDupes: 75
+RECV 999 863 ACK
+numDupes: 76
+RECV 999 863 ACK
+numDupes: 77
+RECV 999 863 ACK
+numDupes: 78
+RECV 999 863 ACK
+numDupes: 79
+RECV 999 863 ACK
+numDupes: 80
+RECV 999 863 ACK
+numDupes: 81
+RECV 999 863 ACK
+numDupes: 82
+RECV 999 909 ACK
+sending packet: 1072
+sending packet: 1073
+sending packet: 1074
+sending packet: 1075
+sending packet: 1076
+sending packet: 1077
+sending packet: 1078
+sending packet: 1079
+sending packet: 1080
+sending packet: 1081
+sending packet: 1082
+sending packet: 1083
+sending packet: 1084
+sending packet: 1085
+sending packet: 1086
+sending packet: 1087
+sending packet: 1088
+sending packet: 1089
+sending packet: 1090
+sending packet: 1091
+sending packet: 1092
+sending packet: 1093
+sending packet: 1094
+sending packet: 1095
+sending packet: 1096
+sending packet: 1097
+sending packet: 1098
+sending packet: 1099
+sending packet: 1100
+sending packet: 1101
+sending packet: 1102
+sending packet: 1103
+sending packet: 1104
+sending packet: 1105
+sending packet: 1106
+sending packet: 1107
+sending packet: 1108
+sending packet: 1109
+sending packet: 1110
+sending packet: 1111
+sending packet: 1112
+sending packet: 1113
+sending packet: 1114
+sending packet: 1115
+sending packet: 1116
+sending packet: 1117
+sending packet: 1118
+RECV 999 909 ACK
+numDupes: 1
+RECV 999 909 ACK
+numDupes: 2
+RECV 999 909 ACK
+numDupes: 3
+fast retransmit: 909
+RECV 999 909 ACK
+numDupes: 4
+RECV 999 909 ACK
+numDupes: 5
+RECV 999 909 ACK
+numDupes: 6
+RECV 999 909 ACK
+numDupes: 7
+RECV 999 909 ACK
+numDupes: 8
+RECV 999 909 ACK
+numDupes: 9
+RECV 999 909 ACK
+numDupes: 10
+RECV 999 909 ACK
+numDupes: 11
+RECV 999 909 ACK
+numDupes: 12
+RECV 999 909 ACK
+numDupes: 13
+RECV 999 909 ACK
+numDupes: 14
+RECV 999 909 ACK
+numDupes: 15
+RECV 999 909 ACK
+numDupes: 16
+RECV 999 909 ACK
+numDupes: 17
+RECV 999 909 ACK
+numDupes: 18
+RECV 999 909 ACK
+numDupes: 19
+RECV 999 909 ACK
+numDupes: 20
+RECV 999 909 ACK
+numDupes: 21
+RECV 999 909 ACK
+numDupes: 22
+RECV 999 909 ACK
+numDupes: 23
+RECV 999 909 ACK
+numDupes: 24
+RECV 999 909 ACK
+numDupes: 25
+RECV 999 909 ACK
+numDupes: 26
+RECV 999 909 ACK
+numDupes: 27
+RECV 999 909 ACK
+numDupes: 28
+RECV 999 909 ACK
+numDupes: 29
+RECV 999 909 ACK
+numDupes: 30
+RECV 999 909 ACK
+numDupes: 31
+RECV 999 909 ACK
+numDupes: 32
+RECV 999 909 ACK
+numDupes: 33
+RECV 999 909 ACK
+numDupes: 34
+RECV 999 909 ACK
+numDupes: 35
+RECV 999 909 ACK
+numDupes: 36
+RECV 999 909 ACK
+numDupes: 37
+RECV 999 909 ACK
+numDupes: 38
+RECV 999 909 ACK
+numDupes: 39
+RECV 999 909 ACK
+numDupes: 40
+RECV 999 909 ACK
+numDupes: 41
+RECV 999 909 ACK
+numDupes: 42
+RECV 999 909 ACK
+numDupes: 43
+RECV 999 909 ACK
+numDupes: 44
+RECV 999 909 ACK
+numDupes: 45
+RECV 999 909 ACK
+numDupes: 46
+RECV 999 909 ACK
+numDupes: 47
+RECV 999 987 ACK
+sending packet: 1119
+sending packet: 1120
+sending packet: 1121
+sending packet: 1122
+sending packet: 1123
+sending packet: 1124
+sending packet: 1125
+sending packet: 1126
+sending packet: 1127
+sending packet: 1128
+sending packet: 1129
+sending packet: 1130
+sending packet: 1131
+sending packet: 1132
+sending packet: 1133
+sending packet: 1134
+sending packet: 1135
+sending packet: 1136
+sending packet: 1137
+sending packet: 1138
+sending packet: 1139
+sending packet: 1140
+sending packet: 1141
+sending packet: 1142
+sending packet: 1143
+sending packet: 1144
+sending packet: 1145
+sending packet: 1146
+sending packet: 1147
+sending packet: 1148
+sending packet: 1149
+sending packet: 1150
+sending packet: 1151
+sending packet: 1152
+sending packet: 1153
+sending packet: 1154
+sending packet: 1155
+sending packet: 1156
+sending packet: 1157
+sending packet: 1158
+sending packet: 1159
+sending packet: 1160
+sending packet: 1161
+sending packet: 1162
+sending packet: 1163
+sending packet: 1164
+sending packet: 1165
+sending packet: 1166
+sending packet: 1167
+sending packet: 1168
+sending packet: 1169
+sending packet: 1170
+sending packet: 1171
+sending packet: 1172
+sending packet: 1173
+sending packet: 1174
+sending packet: 1175
+sending packet: 1176
+sending packet: 1177
+sending packet: 1178
+sending packet: 1179
+sending packet: 1180
+sending packet: 1181
+sending packet: 1182
+sending packet: 1183
+sending packet: 1184
+sending packet: 1185
+sending packet: 1186
+sending packet: 1187
+sending packet: 1188
+sending packet: 1189
+sending packet: 1190
+sending packet: 1191
+sending packet: 1192
+sending packet: 1193
+sending packet: 1194
+sending packet: 1195
+sending packet: 1196
+sending packet: 1197
+RECV 999 987 ACK
+sending packet: 1178
+sending packet: 1179
+sending packet: 1180
+sending packet: 1181
+sending packet: 1182
+sending packet: 1183
+sending packet: 1184
+sending packet: 1185
+sending packet: 1186
+sending packet: 1187
+sending packet: 1188
+sending packet: 1189
+sending packet: 1190
+sending packet: 1191
+sending packet: 1192
+sending packet: 1193
+sending packet: 1194
+sending packet: 1195
+sending packet: 1196
+sending packet: 1197
+sending packet: 1198
+RECV 999 987 ACK
+numDupes: 1
+RECV 999 987 ACK
+numDupes: 2
+RECV 999 987 ACK
+numDupes: 3
+fast retransmit: 987
+RECV 999 987 ACK
+numDupes: 4
+RECV 999 987 ACK
+numDupes: 5
+RECV 999 987 ACK
+numDupes: 6
+RECV 999 987 ACK
+numDupes: 7
+RECV 999 987 ACK
+numDupes: 8
+RECV 999 987 ACK
+numDupes: 9
+RECV 999 987 ACK
+numDupes: 10
+RECV 999 987 ACK
+numDupes: 11
+RECV 999 987 ACK
+numDupes: 12
+RECV 999 987 ACK
+numDupes: 13
+RECV 999 987 ACK
+numDupes: 14
+RECV 999 987 ACK
+numDupes: 15
+RECV 999 987 ACK
+numDupes: 16
+RECV 999 987 ACK
+numDupes: 17
+RECV 999 987 ACK
+numDupes: 18
+RECV 999 987 ACK
+numDupes: 19
+RECV 999 987 ACK
+numDupes: 20
+RECV 999 987 ACK
+numDupes: 21
+RECV 999 987 ACK
+numDupes: 22
+RECV 999 987 ACK
+numDupes: 23
+RECV 999 987 ACK
+numDupes: 24
+RECV 999 987 ACK
+numDupes: 25
+RECV 999 987 ACK
+numDupes: 26
+RECV 999 987 ACK
+numDupes: 27
+RECV 999 987 ACK
+numDupes: 28
+RECV 999 987 ACK
+numDupes: 29
+RECV 999 987 ACK
+numDupes: 30
+RECV 999 987 ACK
+numDupes: 31
+RECV 999 987 ACK
+numDupes: 32
+RECV 999 987 ACK
+numDupes: 33
+RECV 999 987 ACK
+numDupes: 34
+RECV 999 987 ACK
+numDupes: 35
+RECV 999 987 ACK
+numDupes: 36
+RECV 999 987 ACK
+numDupes: 37
+RECV 999 987 ACK
+numDupes: 38
+RECV 999 987 ACK
+numDupes: 39
+RECV 999 987 ACK
+numDupes: 40
+RECV 999 987 ACK
+numDupes: 41
+RECV 999 987 ACK
+numDupes: 42
+RECV 999 987 ACK
+numDupes: 43
+RECV 999 987 ACK
+numDupes: 44
+RECV 999 987 ACK
+numDupes: 45
+RECV 999 987 ACK
+numDupes: 46
+RECV 999 987 ACK
+numDupes: 47
+RECV 999 987 ACK
+numDupes: 48
+RECV 999 987 ACK
+numDupes: 49
+RECV 999 987 ACK
+numDupes: 50
+RECV 999 987 ACK
+numDupes: 51
+RECV 999 987 ACK
+numDupes: 52
+RECV 999 987 ACK
+numDupes: 53
+RECV 999 987 ACK
+numDupes: 54
+RECV 999 987 ACK
+numDupes: 55
+RECV 999 987 ACK
+numDupes: 56
+RECV 999 987 ACK
+numDupes: 57
+RECV 999 987 ACK
+numDupes: 58
+RECV 999 987 ACK
+numDupes: 59
+RECV 999 987 ACK
+numDupes: 60
+RECV 999 987 ACK
+numDupes: 61
+RECV 999 987 ACK
+numDupes: 62
+RECV 999 987 ACK
+numDupes: 63
+RECV 999 987 ACK
+numDupes: 64
+RECV 999 987 ACK
+numDupes: 65
+RECV 999 987 ACK
+numDupes: 66
+RECV 999 987 ACK
+numDupes: 67
+RECV 999 987 ACK
+numDupes: 68
+RECV 999 987 ACK
+numDupes: 69
+RECV 999 987 ACK
+numDupes: 70
+RECV 999 987 ACK
+numDupes: 71
+RECV 999 987 ACK
+numDupes: 72
+RECV 999 987 ACK
+numDupes: 73
+RECV 999 987 ACK
+numDupes: 74
+RECV 999 987 ACK
+numDupes: 75
+RECV 999 987 ACK
+numDupes: 76
+RECV 999 987 ACK
+numDupes: 77
+RECV 999 987 ACK
+numDupes: 78
+RECV 999 987 ACK
+numDupes: 79
+RECV 999 987 ACK
+numDupes: 80
+RECV 999 987 ACK
+numDupes: 81
+RECV 999 987 ACK
+numDupes: 82
+RECV 999 987 ACK
+numDupes: 83
+RECV 999 987 ACK
+numDupes: 84
+RECV 999 987 ACK
+numDupes: 85
+RECV 999 987 ACK
+numDupes: 86
+RECV 999 987 ACK
+numDupes: 87
+RECV 999 987 ACK
+numDupes: 88
+RECV 999 987 ACK
+numDupes: 89
+RECV 999 987 ACK
+numDupes: 90
+RECV 999 987 ACK
+numDupes: 91
+RECV 999 987 ACK
+numDupes: 92
+RECV 999 987 ACK
+numDupes: 93
+RECV 999 987 ACK
+numDupes: 94
+RECV 999 987 ACK
+numDupes: 95
+RECV 999 987 ACK
+numDupes: 96
+RECV 999 987 ACK
+numDupes: 97
+RECV 999 987 ACK
+numDupes: 98
+RECV 999 1199 ACK
+sending packet: 1199
+sending packet: 1200
+sending packet: 1201
+sending packet: 1202
+sending packet: 1203
+sending packet: 1204
+sending packet: 1205
+sending packet: 1206
+sending packet: 1207
+sending packet: 1208
+sending packet: 1209
+sending packet: 1210
+sending packet: 1211
+sending packet: 1212
+sending packet: 1213
+sending packet: 1214
+sending packet: 1215
+sending packet: 1216
+sending packet: 1217
+sending packet: 1218
+sending packet: 1219
+sending packet: 1220
+sending packet: 1221
+sending packet: 1222
+sending packet: 1223
+sending packet: 1224
+sending packet: 1225
+sending packet: 1226
+sending packet: 1227
+sending packet: 1228
+sending packet: 1229
+sending packet: 1230
+sending packet: 1231
+sending packet: 1232
+sending packet: 1233
+sending packet: 1234
+sending packet: 1235
+sending packet: 1236
+sending packet: 1237
+sending packet: 1238
+sending packet: 1239
+sending packet: 1240
+sending packet: 1241
+sending packet: 1242
+sending packet: 1243
+sending packet: 1244
+sending packet: 1245
+sending packet: 1246
+RECV 999 1200 ACK
+RECV 999 1201 ACK
+RECV 999 1202 ACK
+RECV 999 1203 ACK
+RECV 999 1204 ACK
+RECV 999 1205 ACK
+RECV 999 1206 ACK
+RECV 999 1207 ACK
+RECV 999 1208 ACK
+RECV 999 1209 ACK
+RECV 999 1210 ACK
+RECV 999 1211 ACK
+RECV 999 1212 ACK
+RECV 999 1213 ACK
+RECV 999 1214 ACK
+RECV 999 1215 ACK
+RECV 999 1216 ACK
+RECV 999 1217 ACK
+RECV 999 1218 ACK
+RECV 999 1219 ACK
+RECV 999 1220 ACK
+RECV 999 1221 ACK
+RECV 999 1222 ACK
+RECV 999 1223 ACK
+RECV 999 1224 ACK
+RECV 999 1225 ACK
+RECV 999 1226 ACK
+RECV 999 1227 ACK
+RECV 999 1228 ACK
+RECV 999 1229 ACK
+RECV 999 1230 ACK
+RECV 999 1231 ACK
+RECV 999 1232 ACK
+RECV 999 1233 ACK
+RECV 999 1234 ACK
+RECV 999 1235 ACK
+RECV 999 1236 ACK
+RECV 999 1237 ACK
+RECV 999 1238 ACK
+RECV 999 1239 ACK
+RECV 999 1240 ACK
+RECV 999 1241 ACK
+RECV 999 1242 ACK
+RECV 999 1243 ACK
+RECV 999 1244 ACK
+RECV 999 1245 ACK
+RECV 999 1246 ACK
+RECV 999 1247 LAST ACK
