@@ -17,21 +17,25 @@
 
 void packageFile(std::ifstream &fp, std::vector<packet> &packetVec)
 {
-    char buff[1024];
+    std::array<char, 1024> buff;
     unsigned short i = 0;
-
-    fp.seekg(0, std::ios::end);
-    long length = fp.tellg();
-    fp.seekg(0, std::ios::beg);
-
-    while (fp.tellg() != length)
+    while (fp.read(buff.data(), buff.size()))
     {
         packet pack;
-        int toRead = std::min(int(length - fp.tellg()), 1024);
-        fp.read(buff, toRead);
-        build_packet(&pack, i, 0, 0, 0, toRead, buff);
+        int bytesRead = fp.gcount();
+        build_packet(&pack, i, 0, 0, 0, bytesRead, buff.data());
         packetVec.push_back(pack);
-        i++;
+        i += 1;
+    }
+    packet pack;
+    int bytesRead = fp.gcount();
+    build_packet(&pack, i, 0, 0, 0, bytesRead, buff.data());
+    packetVec.push_back(pack);
+
+    // Check for errors during reading
+    if (!fp.eof())
+    {
+        throw std::runtime_error("Unable to read file");
     }
     packetVec[packetVec.size() - 1].last = 1;
 }
@@ -42,22 +46,23 @@ struct pendingPacketNode
     int packNum;
     timeval sentTime;
 
-    pendingPacketNode(int num, timeval tv, pendingPacketNode *p = nullptr) : packNum(num), sentTime(tv) {}
+    pendingPacketNode(int num, timeval tv) : packNum(num), sentTime(tv) {}
 };
 
 int main(int argc, char *argv[])
 {
     int listen_sockfd, send_sockfd;
-    struct sockaddr_in client_addr, server_addr_to, server_addr_from;
-    socklen_t addr_size = sizeof(server_addr_to);
-    struct timeval tv;
-    struct packet pkt;
-    struct packet ack_pkt;
-    char buffer[PAYLOAD_SIZE];
-    unsigned short seq_num = 0;
-    unsigned short ack_num = 0;
-    char last = 0;
-    char ack = 0;
+    // struct sockaddr_in client_addr, server_addr_to, server_addr_from;
+    struct sockaddr_in client_addr, server_addr_to;
+    // socklen_t addr_size = sizeof(server_addr_to);
+    // struct timeval tv;
+    // struct packet pkt;
+    // struct packet ack_pkt;
+    // char buffer[PAYLOAD_SIZE];
+    // unsigned short seq_num = 0;
+    // unsigned short ack_num = 0;
+    // char last = 0;
+    // char ack = 0;
 
     // read filename from command line argument
     if (argc != 2)
@@ -150,7 +155,10 @@ int main(int argc, char *argv[])
     sendPacket(send_sockfd, &server_addr_to, packetList[0]);
     while (true)
     {
-        auto [recvPack, isPresent] = readPacket(listen_sockfd);
+        std::tuple<packet, bool> recv = readPacket(listen_sockfd);
+        packet recvPack;
+        bool isPresent;
+        std::tie(recvPack, isPresent) = recv;
 
         // check for timeouts
         if (!isPresent)

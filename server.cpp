@@ -14,23 +14,25 @@ void writeToFile(std::ofstream &fp, std::vector<packet> &packets)
 {
     for (packet p : packets)
     {
-        if (p.last != 1)
-            fp << p.payload;
-        else
-            for (int i = 0; i < p.length; ++i)
-                fp << p.payload[i];
+        for (unsigned int i = 0; i < p.length; ++i)
+        {
+            std::cout << p.payload[i];
+            fp << p.payload[i];
+        }
+        std::cout << "\n==================================\n";
     }
 }
 
 int main()
 {
     int listen_sockfd, send_sockfd;
-    struct sockaddr_in server_addr, client_addr_from, client_addr_to;
-    struct packet buffer;
-    socklen_t addr_size = sizeof(client_addr_from);
-    int expected_seq_num = 0;
-    int recv_len;
-    struct packet ack_pkt;
+    // struct sockaddr_in server_addr, client_addr_from, client_addr_to;
+    struct sockaddr_in server_addr, client_addr_to;
+    // struct packet buffer;
+    // socklen_t addr_size = sizeof(client_addr_from);
+    // int expected_seq_num = 0;
+    // int recv_len;
+    // struct packet ack_pkt;
 
     // Create a UDP socket for sending
     send_sockfd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -87,7 +89,11 @@ int main()
 
     while (true)
     {
-        auto [recvPack, isPresent] = readPacket(listen_sockfd);
+        std::tuple<packet, bool> recv = readPacket(listen_sockfd);
+        packet recvPack;
+        bool isPresent;
+        std::tie(recvPack, isPresent) = recv;
+
         if (!isPresent)
             continue;
         printRecv(&recvPack);
@@ -105,10 +111,10 @@ int main()
         if (recvPack.last == 1)
         {
             // initiate handshake
-            sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 1, 0});
+            sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 1, 0, {}});
             break;
         }
-        sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 0, 0});
+        sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 0, 0, {}});
     }
 
     // Open the target file for writing (always write to output.txt)
