@@ -4,10 +4,20 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <fstream>
 #include <iostream>
 #include <vector>
 
 #include "utils.h"
+
+void writeToFile(std::ofstream &fp, std::vector<packet> &packets) {
+    for (packet p : packets) {
+        if (p.last != 1)
+            fp << p.payload;
+        else
+            for (int i = 0; i < p.length; ++i) fp << p.payload[i];
+    }
+}
 
 int main() {
     int listen_sockfd, send_sockfd;
@@ -62,21 +72,30 @@ int main() {
     client_addr_to.sin_addr.s_addr = inet_addr(LOCAL_HOST);
     client_addr_to.sin_port = htons(CLIENT_PORT_TO);
 
+    std::vector<packet> packetList;
     while (true) {
         std::optional<packet> pack = readPacket(listen_sockfd);
         if (pack.has_value()) {
             printRecv(&pack.value());
-            break;
-        } else
-            std::cout << "Timeout\n";
+            packetList.push_back(pack.value());
+            if (pack.value().last == 1) {
+                break;
+            }
+        }
     }
 
     // Open the target file for writing (always write to output.txt)
-    FILE *fp = fopen("output.txt", "wb");
+    std::ofstream fp("output.txt", std::ios_base::binary);
+    if (!fp.is_open()) {
+        perror("Error opening file");
+        close(listen_sockfd);
+        close(send_sockfd);
+        return 1;
+    }
 
-    // TODO: Receive file from the client and save it as output.txt
+    writeToFile(fp, packetList);
 
-    fclose(fp);
+    fp.close();
     close(listen_sockfd);
     close(send_sockfd);
     return 0;

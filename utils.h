@@ -7,6 +7,7 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <algorithm>
 #include <optional>
 #include <stdexcept>
 #include <string>
@@ -61,41 +62,39 @@ void printSend(struct packet* pkt, int resend) {
                pkt->last ? " LAST" : "", pkt->ack ? " ACK" : "");
 }
 
+bool readBytes(int sockfd, void* buf, int size, bool shouldTimeout = false) {
+    int totalBytesRead = 0;
+    while (totalBytesRead < size) {
+        int bytesRead =
+            read(sockfd, buf + totalBytesRead, size - totalBytesRead);
+        if (bytesRead == -1 && shouldTimeout) return false;
+
+        totalBytesRead += std::max(0, bytesRead);
+    }
+    return true;
+}
+
 std::optional<packet> readPacket(int sockfd) {
     packet p;
     std::optional<packet> pack{p};
 
-    unsigned int bytesRead = read(sockfd, &pack.value().seqnum, 2);
-
-    if (bytesRead == -1)
-        return std::nullopt;
-    else if (bytesRead != 2)
-        throw std::runtime_error("unable to read packet seqnum");
-
-    if (read(sockfd, &pack.value().acknum, 2) != 2)
-        throw std::runtime_error("unable to read packet acknum");
-    if (read(sockfd, &pack.value().ack, 1) != 1)
-        throw std::runtime_error("unable to read packet ack");
-    if (read(sockfd, &pack.value().last, 1) != 1)
-        throw std::runtime_error("unable to read packet last");
-    if (read(sockfd, &pack.value().length, 4) != 4)
-        throw std::runtime_error("unable to read packet length");
+    if (!readBytes(sockfd, &pack.value().seqnum, 2, true)) return std::nullopt;
+    readBytes(sockfd, &pack.value().acknum, 2);
+    readBytes(sockfd, &pack.value().ack, 1);
+    readBytes(sockfd, &pack.value().last, 1);
+    readBytes(sockfd, &pack.value().length, 4);
 
     pack.value().seqnum = ntohs(pack.value().seqnum);
     pack.value().acknum = ntohs(pack.value().acknum);
     pack.value().length = ntohl(pack.value().length);
 
-    char* buff[1024];
-    bytesRead = read(sockfd, buff, pack.value().length);
-    if (bytesRead != pack.value().length)
-        throw std::runtime_error("unable to read packet payload");
-
-    memcpy(pack.value().payload, buff, pack.value().length);
+    readBytes(sockfd, pack.value().payload, pack.value().length);
 
     return pack;
 }
 
-bool sendPacket(int sockfd, sockaddr_in* toInfo, const packet& pack) {
+bool sendPacket(const int sockfd, const sockaddr_in* toInfo,
+                const packet& pack) {
     short netseqnum = htons(pack.seqnum);
     short netacknum = htons(pack.acknum);
     unsigned int netlength = htonl(pack.length);
@@ -104,18 +103,23 @@ bool sendPacket(int sockfd, sockaddr_in* toInfo, const packet& pack) {
                sizeof(*toInfo)) != 2) {
         throw std::runtime_error("unable to send packet seqnum");
     }
+
     if (sendto(sockfd, &netacknum, 2, 0, (struct sockaddr*)toInfo,
                sizeof(*toInfo)) != 2)
         throw std::runtime_error("unable to send packet acknum");
+
     if (sendto(sockfd, &pack.ack, 1, 0, (struct sockaddr*)toInfo,
                sizeof(*toInfo)) != 1)
         throw std::runtime_error("unable to send packet ack");
+
     if (sendto(sockfd, &pack.last, 1, 0, (struct sockaddr*)toInfo,
                sizeof(*toInfo)) != 1)
         throw std::runtime_error("unable to send packet last");
+
     if (sendto(sockfd, &netlength, 4, 0, (struct sockaddr*)toInfo,
                sizeof(*toInfo)) != 4)
         throw std::runtime_error("unable to send packet length");
+
     if (sendto(sockfd, &pack.payload, pack.length, 0, (struct sockaddr*)toInfo,
                sizeof(*toInfo)) != pack.length)
         throw std::runtime_error("unable to send packet payload");
@@ -125,7 +129,5 @@ bool sendPacket(int sockfd, sockaddr_in* toInfo, const packet& pack) {
 
 std::tuple<int, int> getControlWindow(int ssthresh, int currentCwnd,
                                       int numDups);
-
-bool writeToFile(int fp, std::vector<packet> packets);
 
 #endif

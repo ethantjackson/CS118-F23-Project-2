@@ -28,7 +28,7 @@ void packageFile(std::ifstream &fp, std::vector<packet> &packetVec) {
         packetVec.push_back(pack);
         i++;
     }
-    packetVec[-1].last == 1;
+    packetVec[packetVec.size() - 1].last = 1;
 }
 
 int main(int argc, char *argv[]) {
@@ -96,7 +96,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Open file for reading
-    std::ifstream fp("input.txt");
+    std::ifstream fp(filename);
     if (!fp.is_open()) {
         perror("Error opening file");
         close(listen_sockfd);
@@ -108,6 +108,11 @@ int main(int argc, char *argv[]) {
     packageFile(fp, packetList);
 
     // TODO: Read from file, and initiate reliable data transfer to the server
+    for (packet p : packetList) {
+        sendPacket(send_sockfd, &server_addr_to, p);
+        // printSend(&p, false);
+        usleep(50000);
+    }
 
     fp.close();
     close(listen_sockfd);
