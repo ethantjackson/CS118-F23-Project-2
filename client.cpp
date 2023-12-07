@@ -5,7 +5,31 @@
 #include <time.h>
 #include <unistd.h>
 
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <vector>
+
 #include "utils.h"
+
+void packageFile(std::ifstream &fp, std::vector<packet> &packetVec) {
+    char buff[1024];
+    unsigned short i = 0;
+
+    fp.seekg(0, std::ios::end);
+    long length = fp.tellg();
+    fp.seekg(0, std::ios::beg);
+
+    while (fp.tellg() != length) {
+        packet pack;
+        int toRead = std::min(int(length - fp.tellg()), 1024);
+        fp.read(buff, toRead);
+        build_packet(&pack, i, 0, 0, 0, toRead, buff);
+        packetVec.push_back(pack);
+        i++;
+    }
+    packetVec[-1].last == 1;
+}
 
 int main(int argc, char *argv[]) {
     int listen_sockfd, send_sockfd;
@@ -71,22 +95,21 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    packet pack;
-    build_packet(&pack, 12, 13, 1, 2, 4, "1234");
-    sendPacket(send_sockfd, &server_addr_to, pack);
-
     // Open file for reading
-    FILE *fp = fopen(filename, "rb");
-    if (fp == NULL) {
+    std::ifstream fp("input.txt");
+    if (!fp.is_open()) {
         perror("Error opening file");
         close(listen_sockfd);
         close(send_sockfd);
         return 1;
     }
 
+    std::vector<packet> packetList;
+    packageFile(fp, packetList);
+
     // TODO: Read from file, and initiate reliable data transfer to the server
 
-    fclose(fp);
+    fp.close();
     close(listen_sockfd);
     close(send_sockfd);
     return 0;

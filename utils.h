@@ -10,7 +10,6 @@
 #include <optional>
 #include <stdexcept>
 #include <string>
-#include <vector>
 
 // MACROS
 #define SERVER_IP "127.0.0.1"
@@ -126,8 +125,6 @@ bool sendPacket(int sockfd, sockaddr_in* toInfo, const packet& pack) {
 
 std::tuple<int, int> getControlWindow(int ssthresh, int currentCwnd,
                                       int numDups);
-
-std::vector<packet> packageFile(int fp);
 
 bool writeToFile(int fp, std::vector<packet> packets);
 
