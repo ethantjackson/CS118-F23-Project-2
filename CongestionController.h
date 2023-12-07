@@ -1,13 +1,15 @@
 #pragma once
 
-class CongestionController {
+class CongestionController
+{
+public:
     CongestionController(int ssthresh);
     int gotNewAck();
     int gotDupAck();
-    int gotTimout();
+    int gotTimeout();
     int getCwnd();
 
-   private:
+private:
     int ssthresh;
     int cwnd = 1;
     int numDups = 0;
