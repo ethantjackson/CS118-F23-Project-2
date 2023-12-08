@@ -100,12 +100,12 @@ int main() {
                 std::cerr << "Error getting the current time" << std::endl;
                 return -1;
             }
-            std::cout << "resend last ack\n";
+            // std::cout << "resend last ack\n";
             sendPacket(send_sockfd, &client_addr_to,
                        packet{999, cumAck, 1, 1, 0, {}});
             break;
         }
-        std::cout << "sending cum ack " << cumAck << std::endl;
+        // std::cout << "sending cum ack " << cumAck << std::endl;
         sendPacket(send_sockfd, &client_addr_to,
                    packet{999, cumAck, 1, 0, 0, {}});
     }
@@ -158,7 +158,7 @@ int main() {
         return 1;
     }
 
-    std::cout << "writing to file\n";
+    // std::cout << "writing to file\n";
     writeToFile(fp, packetList);
 
     fp.close();

@@ -24,7 +24,7 @@ int CongestionController::gotDupAck() {
         cwnd++;
     } else if (numDups == 3) {
         cwnd = std::max(cwnd / 2, 1);
-        ssthresh = std::max(cwnd / 2, 2);
+        ssthresh = cwnd;
     }
 
     return cwnd;

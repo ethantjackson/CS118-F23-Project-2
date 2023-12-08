@@ -112,7 +112,7 @@ std::tuple<packet, bool> readPacket(int sockfd) {
         return std::make_tuple(pack, false);
 
     unpackPacket(pack, buffer);
-    printRecv(&pack);
+    // printRecv(&pack);
     return std::make_tuple(pack, true);
 }
 

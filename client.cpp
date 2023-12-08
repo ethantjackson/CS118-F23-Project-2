@@ -148,8 +148,8 @@ int main(int argc, char *argv[]) {
 
                 if (timeElapsedMicro >= kTimeoutMicro) {
                     pendingPack.sentTime = currTime;
-                    std::cout << "timeout: " << pendingPack.packNum
-                              << std::endl;
+                    // std::cout << "timeout: " << pendingPack.packNum
+                    //           << std::endl;
                     sendPacket(send_sockfd, &server_addr_to,
                                packetList[pendingPack.packNum]);
                     numDupes = 0;
@@ -168,11 +168,12 @@ int main(int argc, char *argv[]) {
             if (recvAck == pendingQueue.front().packNum) {
                 cwnd = congestionController.gotDupAck();
                 numDupes += 1;
-                std::cout << "numDupes: " << numDupes << std::endl;
+                // std::cout << "numDupes: " << numDupes << std::endl;
                 if (numDupes == 3) {
-                    std::cout
-                        << "fast retransmit: " << pendingQueue.front().packNum
-                        << std::endl;
+                    // std::cout
+                    //     << "fast retransmit: " <<
+                    //     pendingQueue.front().packNum
+                    //     << std::endl;
                     sendPacket(send_sockfd, &server_addr_to,
                                packetList[pendingQueue.front().packNum]);
                 }
@@ -190,7 +191,7 @@ int main(int argc, char *argv[]) {
                         continue;
                     }
                     packetWasSent[i] = true;
-                    std::cout << "sending packet: " << i << std::endl;
+                    // std::cout << "sending packet: " << i << std::endl;
                     sendPacket(send_sockfd, &server_addr_to, packetList[i]);
                     timeval sentTime;
                     if (gettimeofday(&sentTime, nullptr) != 0) {

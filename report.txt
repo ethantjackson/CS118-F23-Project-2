@@ -1,2 +1,8 @@
 Please concisely describe your congestion control scheme here.
 No need to be verbose, brief descriptions/bullet points are preferred.
+
+* Basic tcp style congestion control with fast retransmit
+* slow start w/ initial threshold of 4
+* when recieving new ack and not in slow start or recovery, cwnd += 1, else in slow start cwnd *= 2, else in recovery cwnd = ssthresh
+* when get dup ack, do nothing until 3rd, then enter recovery. ssthresh = ssthresh = max(cwnd / 2, 1), cwnd = max(cwnd/2, 1)
+* on timeout, reset the congestion control system.
