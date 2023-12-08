@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 
     // RDT parameters
     // const long long kTimeoutMicro = 250000;
-    const long long kTimeoutMicro = 250000;
+    const long long kTimeoutMicro = 800000;
     // RDT sender state
     int numDupes = 0;
     int cwnd = 1;
@@ -177,7 +177,9 @@ int main(int argc, char *argv[])
         else
         {
             if (recvPack.last == 1)
+            {
                 break; // do handshake stuff
+            }
             int recvAck = recvPack.acknum;
             if (recvAck == pendingQueue.front().packNum)
             {

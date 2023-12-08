@@ -7,6 +7,7 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <sys/time.h>
 
 #include "utils.h"
 
@@ -81,6 +82,8 @@ int main()
     // RTL state
     std::vector<bool> receivedPacks;
     unsigned short cumAck = 0;
+    timeval lastAckTv;
+    const long long kAckWaitMicro = 1600000;
 
     while (true)
     {
@@ -105,13 +108,46 @@ int main()
         }
         if (recvPack.last == 1)
         {
-            // initiate handshake
+            if (gettimeofday(&lastAckTv, nullptr) != 0)
+            {
+                std::cerr << "Error getting the current time" << std::endl;
+                return -1;
+            }
+            std::cout << "resend last ack\n";
             sendPacket(send_sockfd, &client_addr_to,
                        packet{999, cumAck, 1, 1, 0, {}});
             break;
         }
         std::cout << "sending cum ack " << cumAck << std::endl;
         sendPacket(send_sockfd, &client_addr_to, packet{999, cumAck, 1, 0, 0, {}});
+    }
+
+    timeval timeNow;
+    if (gettimeofday(&timeNow, nullptr) != 0)
+    {
+        std::cerr << "Error getting the current time" << std::endl;
+        return -1;
+    }
+
+    // wait to verify the last packet is not resent (ie. the last ACK was dropped)
+    while (getTimeElapsed(lastAckTv, timeNow) <= kAckWaitMicro)
+    {
+        packet recvPack;
+        bool isPresent;
+        std::tie(recvPack, isPresent) = readPacket(listen_sockfd);
+
+        if (!isPresent)
+            continue;
+        if (recvPack.last == 1)
+        {
+            if (gettimeofday(&lastAckTv, nullptr) != 0)
+            {
+                std::cerr << "Error getting the current time" << std::endl;
+                return -1;
+            }
+            sendPacket(send_sockfd, &client_addr_to,
+                       packet{999, cumAck, 1, 1, 0, {}});
+        }
     }
 
     // Open the target file for writing (always write to output.txt)
