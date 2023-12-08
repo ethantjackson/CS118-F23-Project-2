@@ -4,16 +4,12 @@
 
 CongestionController::CongestionController(int ssthresh) : ssthresh(ssthresh) {}
 
-int CongestionController::gotNewAck()
-{
-    if (inRecovery)
-    {
+int CongestionController::gotNewAck() {
+    if (inRecovery) {
         cwnd = ssthresh;
         inRecovery = false;
         numDups = 0;
-    }
-    else
-    {
+    } else {
         if (cwnd <= ssthresh)
             cwnd *= 2;
         else
@@ -22,15 +18,11 @@ int CongestionController::gotNewAck()
     return cwnd;
 }
 
-int CongestionController::gotDupAck()
-{
+int CongestionController::gotDupAck() {
     numDups++;
-    if (inRecovery)
-    {
+    if (inRecovery) {
         cwnd++;
-    }
-    else if (numDups == 3)
-    {
+    } else if (numDups == 3) {
         cwnd = std::max(cwnd / 2, 1);
         ssthresh = std::max(cwnd / 2, 2);
     }
@@ -38,9 +30,8 @@ int CongestionController::gotDupAck()
     return cwnd;
 }
 
-int CongestionController::gotTimeout()
-{
-    ssthresh = std::max(cwnd / 2, 2);
+int CongestionController::gotTimeout() {
+    ssthresh = std::max(cwnd / 2, 1);
     cwnd = 1;
     inRecovery = false;
     numDups = 0;
