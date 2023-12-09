@@ -19,7 +19,7 @@
 #define CLIENT_PORT 6001
 #define SERVER_PORT 6002
 #define CLIENT_PORT_TO 5001
-#define PAYLOAD_SIZE 1024
+#define PAYLOAD_SIZE 1190
 #define WINDOW_SIZE 5
 #define TIMEOUT 2
 #define MAX_SEQUENCE 1024
@@ -94,7 +94,7 @@ void unpackPacket(packet &pack, uint8_t *buffer) {
 
 bool sendPacket(const int sockfd, const sockaddr_in *toInfo,
                 const packet &pack) {
-    uint8_t buffer[1034];
+    uint8_t buffer[1200];
     packPacket(pack, buffer);
     int sendLength = 10 + pack.length;
     if (sendto(sockfd, buffer, sendLength, 0, (struct sockaddr *)toInfo,
@@ -107,12 +107,12 @@ bool sendPacket(const int sockfd, const sockaddr_in *toInfo,
 
 std::tuple<packet, bool> readPacket(int sockfd) {
     packet pack;
-    uint8_t buffer[1034];
-    if (recv(sockfd, buffer, 1034, 0) == -1)
+    uint8_t buffer[1200];
+    if (recv(sockfd, buffer, 1200, 0) == -1)
         return std::make_tuple(pack, false);
 
     unpackPacket(pack, buffer);
-    // printRecv(&pack);
+    printRecv(&pack);
     return std::make_tuple(pack, true);
 }
 
